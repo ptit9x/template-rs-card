@@ -1,0 +1,1993 @@
+<html lang="en" class="theme-color-07cb79 theme-skin-light">
+
+<head>
+    <style>
+        .gm-style .gm-style-mtc label,
+        .gm-style .gm-style-mtc div {
+            font-weight: 400
+        }
+        .gm-control-active>img {
+            box-sizing: content-box;
+            display: none;
+            left: 50%;
+            pointer-events: none;
+            position: absolute;
+            top: 50%;
+            transform: translate(-50%, -50%)
+        }
+
+        .gm-control-active>img:nth-child(1) {
+            display: block
+        }
+
+        .gm-control-active:hover>img:nth-child(1),
+        .gm-control-active:active>img:nth-child(1) {
+            display: none
+        }
+
+        .gm-control-active:hover>img:nth-child(2),
+        .gm-control-active:active>img:nth-child(3) {
+            display: block
+        }
+        .gm-ui-hover-effect {
+            opacity: .6
+        }
+
+        .gm-ui-hover-effect:hover {
+            opacity: 1
+        }
+        .gm-style .gm-style-cc span,
+        .gm-style .gm-style-cc a,
+        .gm-style .gm-style-mtc div {
+            font-size: 10px;
+            box-sizing: border-box
+        }
+        @media print {
+
+            .gm-style .gmnoprint,
+            .gmnoprint {
+                display: none
+            }
+        }
+
+        @media screen {
+
+            .gm-style .gmnoscreen,
+            .gmnoscreen {
+                display: none
+            }
+        }
+        .gm-style-pbc {
+            transition: opacity ease-in-out;
+            background-color: rgba(0, 0, 0, 0.45);
+            text-align: center
+        }
+
+        .gm-style-pbt {
+            font-size: 22px;
+            color: white;
+            font-family: Roboto, Arial, sans-serif;
+            position: relative;
+            margin: 0;
+            top: 50%;
+            -webkit-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+            transform: translateY(-50%)
+        }
+        .gm-style img {
+            max-width: none;
+        }
+
+        .gm-style {
+            font: 400 11px Roboto, Arial, sans-serif;
+            text-decoration: none;
+        }
+    </style>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>RScard</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/ico" href="img/favicon.png">
+
+    <!-- Google Fonts -->
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Fredoka+One">
+    <link rel="stylesheet" type="text/css"
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic">
+
+    <!-- Icon Fonts -->
+    <link rel="stylesheet" type="text/css" href="fonts/map-icons/css/map-icons.min.css">
+    <link rel="stylesheet" type="text/css" href="fonts/icomoon/style.css">
+
+    <!-- Styles -->
+    <link rel="stylesheet" type="text/css" href="js/plugins/jquery.bxslider/jquery.bxslider.css">
+    <link rel="stylesheet" type="text/css" href="js/plugins/jquery.customscroll/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" type="text/css" href="js/plugins/jquery.mediaelement/mediaelementplayer.min.css">
+    <link rel="stylesheet" type="text/css" href="js/plugins/jquery.fancybox/jquery.fancybox.css">
+    <link rel="stylesheet" type="text/css" href="js/plugins/jquery.owlcarousel/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="js/plugins/jquery.owlcarousel/owl.theme.css">
+    <link rel="stylesheet" type="text/css" href="js/plugins/jquery.optionpanel/option-panel.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="colors/theme-color.css">
+    <!-- Modernizer for detect what features the user’s browser has to offer -->
+    <script type="text/javascript" src="js/libs/modernizr.js"></script>
+    <style type="text/css">
+        .fancybox-margin {
+            margin-right: 15px;
+        }
+    </style>
+</head>
+
+<body class="home header-has-img">
+    <div class="mobile-nav">
+        <button class="btn-mobile mobile-nav-close"><i class="rsicon rsicon-close"></i></button>
+
+        <div class="mobile-nav-inner mCustomScrollbar _mCS_1 mCS_no_scrollbar">
+            <div id="mCSB_1" class="mCustomScrollBox mCS-dark mCSB_vertical mCSB_inside" tabindex="0"
+                style="max-height: 0px;">
+                <div id="mCSB_1_container" class="mCSB_container mCS_y_hidden mCS_no_scrollbar_y"
+                    style="position:relative; top:0; left:0;" dir="ltr">
+                    <nav id="mobile-nav" class="nav">
+                        <ul class="clearfix">
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#skills">Skills</a></li>
+                            <li><a href="#portfolio">Portfolio</a> </li>
+                            <li><a href="#experience">Experience</a></li>
+                            <li><a href="#references">References</a></li>
+                            <li>
+                                <a href="category.html">Blog</a>
+                                <ul>
+                                    <li><a href="single-image.html">Image Post</a></li>
+                                    <li><a href="single-slider.html">Slider Post</a></li>
+                                    <li><a href="single-video.html">Video Post</a></li>
+                                    <li><a href="single-audio.html">Audio Post</a></li>
+                                    <li><a href="single-vimeo.html">Vimeo Post</a></li>
+                                    <li><a href="single-youtube.html">Youtube Post</a></li>
+                                    <li><a href="single-dailymotion.html">Dailymotion Post</a></li>
+                                    <li><a href="single.html">Without Media Post</a></li>
+                                    <li><a href="typography.html">Typography Page</a></li>
+                                    <li><a href="icons.html">Icons Page</a></li>
+                                    <li><a href="404.html">404 Page</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#calendar">Calendar <span></span></a></li>
+                            <li><a href="#contact">Contact <span></span></a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div id="mCSB_1_scrollbar_vertical"
+                    class="mCSB_scrollTools mCSB_1_scrollbar mCS-dark mCSB_scrollTools_vertical" style="display: none;">
+                    <div class="mCSB_draggerContainer">
+                        <div id="mCSB_1_dragger_vertical" class="mCSB_dragger"
+                            style="position: absolute; min-height: 30px; top: 0px;" oncontextmenu="return false;">
+                            <div class="mCSB_dragger_bar" style="line-height: 30px;"></div>
+                        </div>
+                        <div class="mCSB_draggerRail"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!-- .mobile-nav -->
+
+    <div class="sidebar sidebar-fixed">
+        <button class="btn-sidebar btn-sidebar-close"> <i class="rsicon rsicon-close"></i></button>
+
+        <div class="widget-area mCustomScrollbar _mCS_2">
+            <div id="mCSB_2" class="mCustomScrollBox mCS-dark mCSB_vertical mCSB_inside" tabindex="0">
+                <div id="mCSB_2_container" class="mCSB_container" style="position:relative; top:0; left:0;" dir="ltr">
+                    <aside class="widget widget-profile">
+                        <div class="profile-photo">
+                            <img src="img/uploads/rs-photo-v2.jpg" alt="Do Ngoc Huynh" class="mCS_img_loaded">
+                        </div>
+                        <div class="profile-info">
+                            <h2 class="profile-title">Do Ngoc Huynh</h2>
+                            <h3 class="profile-position">Developer and Startup entrepreneur</h3>
+                        </div>
+                    </aside><!-- .widget-profile -->
+
+                    <aside class="widget widget_search">
+                        <h2 class="widget-title">Search</h2>
+                        <form class="search-form">
+                            <label class="ripple">
+                                <span class="screen-reader-text">Search for:</span>
+                                <input class="search-field" type="search" placeholder="Search">
+                            </label>
+                            <input type="submit" class="search-submit" value="Search">
+                        </form>
+                    </aside><!-- .widget_search -->
+
+                    <aside class="widget widget_contact">
+                        <h2 class="widget-title">Contact Me</h2>
+                        <form class="contactForm" action="php/contact_form.php" method="post">
+                            <div class="input-field">
+                                <input class="contact-name" type="text" name="name">
+                                <span class="line"></span>
+                                <label>Name</label>
+                            </div>
+
+                            <div class="input-field">
+                                <input class="contact-email" type="email" name="email">
+                                <span class="line"></span>
+                                <label>Email</label>
+                            </div>
+
+                            <div class="input-field">
+                                <input class="contact-subject" type="text" name="subject">
+                                <span class="line"></span>
+                                <label>Subject</label>
+                            </div>
+
+                            <div class="input-field">
+                                <textarea class="contact-message" rows="4" name="message"></textarea>
+                                <span class="line"></span>
+                                <label>Message</label>
+                            </div>
+
+                            <span class="btn-outer btn-primary-outer ripple">
+                                <input class="contact-submit btn btn-lg btn-primary" type="submit" value="Send">
+                            </span>
+
+                            <div class="contact-response"></div>
+                        </form>
+                    </aside><!-- .widget_contact -->
+
+                    <aside class="widget widget-popuplar-posts">
+                        <h2 class="widget-title">Popular posts</h2>
+                        <ul>
+                            <li>
+                                <div class="post-media"><a href=""><img src="img/uploads/thumb-78x56-1.jpg" alt=""
+                                            class="mCS_img_loaded"></a></div>
+                                <h3 class="post-title"><a href="">Standard Post Format With Featured Image</a></h3>
+                                <div class="post-info"><a href=""><i class="rsicon rsicon-comments"></i>56 comments</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="post-media"><a href=""><img src="img/uploads/thumb-78x56-2.jpg" alt=""
+                                            class="mCS_img_loaded"></a></div>
+                                <h3 class="post-title"><a href="">Standard Post Format With Featured Image</a></h3>
+                                <div class="post-info"><a href=""><i class="rsicon rsicon-comments"></i>56 comments</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="post-media"><a href=""><img src="img/uploads/thumb-78x56-3.jpg" alt=""
+                                            class="mCS_img_loaded"></a></div>
+                                <h3 class="post-title"><a href="">Standard Post Format With Featured Image</a></h3>
+                                <div class="post-info"><a href=""><i class="rsicon rsicon-comments"></i>56 comments</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </aside><!-- .widget-popuplar-posts -->
+
+                    <aside class="widget widget_tag_cloud">
+                        <h2 class="widget-title">Tag Cloud</h2>
+                        <div class="tagcloud">
+                            <a href="" title="1 topic">Business</a>
+                            <a href="" title="9 topics">City</a>
+                            <a href="" title="10 topics">Creative</a>
+                            <a href="" title="6 topics">Fashion</a>
+                            <a href="" title="2 topics">Music</a>
+                            <a href="" title="5 topics">News</a>
+                            <a href="" title="9 topics">Peoples</a>
+                        </div>
+                    </aside><!-- .widget_tag_cloud -->
+
+                    <aside class="widget widget-recent-posts">
+                        <h2 class="widget-title">Recent posts</h2>
+                        <ul>
+                            <li>
+                                <div class="post-tag">
+                                    <a href="">#Photo</a>
+                                    <a href="">#Architect</a>
+                                </div>
+                                <h3 class="post-title"><a href="">Standard Post Format With Featured Image</a></h3>
+                                <div class="post-info"><a href=""><i class="rsicon rsicon-comments"></i>56 comments</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="post-tag">
+                                    <a href="">#Photo</a>
+                                    <a href="">#Architect</a>
+                                </div>
+                                <h3 class="post-title"><a href="">Standard Post Format With Featured Image</a></h3>
+                                <div class="post-info"><a href=""><i class="rsicon rsicon-comments"></i>56 comments</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="post-tag">
+                                    <a href="">#Photo</a>
+                                    <a href="">#Architect</a>
+                                </div>
+                                <h3 class="post-title"><a href="">Standard Post Format With Featured Image</a></h3>
+                                <div class="post-info"><a href=""><i class="rsicon rsicon-comments"></i>56 comments</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </aside><!-- .widget-recent-posts -->
+
+                    <aside class="widget widget_categories">
+                        <h2 class="widget-title">Categories</h2>
+                        <ul>
+                            <li><a href="" title="Architecture Category Posts">Architecture</a> (9)</li>
+                            <li><a href="" title="Business Category Posts">Business</a> (16)</li>
+                            <li><a href="" title="Creative Category Posts">Creative</a> (18)</li>
+                            <li><a href="" title="Design Category Posts">Design</a> (10)</li>
+                            <li><a href="" title="Development Category Posts">Development</a> (14)</li>
+                            <li><a href="" title="Education Category Posts">Education</a> (9)</li>
+                        </ul>
+                    </aside><!-- .widget_categories -->
+                </div>
+                <div id="mCSB_2_scrollbar_vertical"
+                    class="mCSB_scrollTools mCSB_2_scrollbar mCS-dark mCSB_scrollTools_vertical"
+                    style="display: block;">
+                    <div class="mCSB_draggerContainer">
+                        <div id="mCSB_2_dragger_vertical" class="mCSB_dragger"
+                            style="position: absolute; min-height: 30px; display: block; height: 347px; max-height: 889px;"
+                            oncontextmenu="return false;">
+                            <div class="mCSB_dragger_bar" style="line-height: 30px;"></div>
+                        </div>
+                        <div class="mCSB_draggerRail"></div>
+                    </div>
+                </div>
+            </div>
+        </div><!-- .widget-area -->
+    </div><!-- .sidebar -->
+
+    <div class="wrapper">
+        <header class="header" style="min-height: 127px;">
+            <div class="head-bg" style="background-image: url('img/uploads/rs-cover.jpg')"></div>
+
+            <div class="head-bar animated">
+                <div class="head-bar-inner">
+                    <div class="row">
+                        <div class="col-sm-3 col-xs-6">
+                            <a class="logo" href="index.html"><span>RS</span>card</a>
+                            <!-- <a class="head-logo" href=""><img src="img/rs-logo.png" alt="RScard"/></a> -->
+                        </div>
+
+                        <div class="col-sm-9 col-xs-6">
+                            <div class="nav-wrap">
+                                <nav id="nav" class="nav">
+                                    <ul class="clearfix">
+                                        <li><a href="#about">About<span></span></a></li>
+                                        <li><a href="#skills">Skills<span></span></a></li>
+                                        <li><a href="#portfolio">Portfolio<span></span></a> </li>
+                                        <li><a href="#experience">Experience<span></span></a></li>
+                                        <li><a href="#references">References<span></span></a></li>
+                                        <li>
+                                            <a href="category.html">Blog<span></span></a>
+                                            <ul>
+                                                <li><a href="single-image.html">Image Post</a></li>
+                                                <li><a href="single-slider.html">Slider Post</a></li>
+                                                <li><a href="single-video.html">Video Post</a></li>
+                                                <li><a href="single-audio.html">Audio Post</a></li>
+                                                <li><a href="single-vimeo.html">Vimeo Post</a></li>
+                                                <li><a href="single-youtube.html">Youtube Post</a></li>
+                                                <li><a href="single-dailymotion.html">Dailymotion Post</a></li>
+                                                <li><a href="single.html">Without Media Post</a></li>
+                                                <li><a href="typography.html">Typography Page</a></li>
+                                                <li><a href="icons.html">Icons Page</a></li>
+                                                <li><a href="404.html">404 Page</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#calendar">Calendar <span></span><span></span></a></li>
+                                        <li><a href="#contact">Contact <span></span><span></span></a></li>
+                                    </ul>
+                                </nav>
+
+                                <button class="btn-mobile btn-mobile-nav">Menu</button>
+                                <button class="btn-sidebar btn-sidebar-open"><i class="rsicon rsicon-menu"></i></button>
+                            </div><!-- .nav-wrap -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header><!-- .header -->
+
+        <div class="content">
+            <div class="container">
+
+                <!-- START: PAGE CONTENT -->
+                <section id="about" class="section section-about">
+                    <div class="animate-up animated">
+                        <div class="section-box">
+                            <div class="profile">
+                                <div class="row">
+                                    <div class="col-xs-5">
+                                        <div class="profile-photo"><img src="img/uploads/rs-photo-v1.jpg"
+                                                alt="Do Ngoc Huynh"></div>
+                                    </div>
+                                    <div class="col-xs-7">
+                                        <div class="profile-info">
+                                            <div class="profile-preword"><span>Hello</span></div>
+                                            <h1 class="profile-title"><span>I'm</span> Do Ngoc Huynh</h1>
+                                            <h2 class="profile-position">Full Stack Developer</h2>
+                                        </div>
+                                        <ul class="profile-list">
+                                            <li class="clearfix">
+                                                <strong class="title">Age</strong>
+                                                <span class="cont">29</span>
+                                            </li>
+                                            <li class="clearfix">
+                                                <strong class="title">Address</strong>
+                                                <span class="cont">FLC My Dinh, 36 Pham Hung, My Dinh 2, Ha Noi</span>
+                                            </li>
+                                            <li class="clearfix">
+                                                <strong class="title">E-mail</strong>
+                                                <span class="cont"><a
+                                                        href="mailto:robertsmith@company.com">ngochuynh1991@gmail.com</a></span>
+                                            </li>
+                                            <li class="clearfix">
+                                                <strong class="title">Phone</strong>
+                                                <span class="cont"><a href="tel:+12562548456">+84 374 539 633</a></span>
+                                            </li>
+                                            <li class="clearfix">
+                                                <strong class="title">Freelance</strong>
+                                                <span class="cont">till April 15, 2016</span>
+                                            </li>
+                                            <li class="clearfix">
+                                                <strong class="title"><span class="button">On Vacation</span></strong>
+                                                <span class="cont"><i class="rsicon rsicon-calendar"></i>till March 25,
+                                                    2016</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="profile-social">
+                                <ul class="social">
+                                    <li><a class="ripple-centered" href="https://www.facebook.com" target="_blank"><i
+                                                class="rsicon rsicon-facebook"></i></a></li>
+                                    <li><a class="ripple-centered" href="https://twitter.com" target="_blank"><i
+                                                class="rsicon rsicon-twitter"></i></a></li>
+                                    <li><a class="ripple-centered" href="https://www.linkedin.com" target="_blank"><i
+                                                class="rsicon rsicon-linkedin"></i></a></li>
+                                    <li><a class="ripple-centered" href="https://plus.google.com" target="_blank"><i
+                                                class="rsicon rsicon-google-plus"></i></a></li>
+                                    <li><a class="ripple-centered" href="https://dribbble.com" target="_blank"><i
+                                                class="rsicon rsicon-dribbble"></i></a></li>
+                                    <li><a class="ripple-centered" href="https://www.instagram.com" target="_blank"><i
+                                                class="rsicon rsicon-instagram"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="section-txt-btn">
+                            <p><a class="btn btn-lg btn-border ripple" target="_blank"
+                                    href="http://dev.novembit.com/rs_card/wp-content/uploads/2015/11/test-1.pdf">Download
+                                    Resume</a></p>
+                            <p>Hello! I’m Do Ngoc Huynh. Senior Web Developer specializing in front end development.
+                                Experienced with all stages of the development cycle for dynamic web projects.
+                                Well-versed in numerous programming languages including JavaScript, SQL, and C. Stng
+                                background in project management and customer relations.</p>
+                        </div>
+                    </div>
+                </section><!-- #about -->
+
+                <section id="skills" class="section section-skills">
+                    <div class="animate-up">
+                        <h2 class="section-title">Professional Skills</h2>
+                        <div class="section-box">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="progress-bar">
+                                        <div class="bar-data">
+                                            <span class="bar-title">Wordpress</span>
+                                            <span class="bar-value">80%</span>
+                                        </div>
+                                        <div class="bar-line">
+                                            <span class="bar-fill" data-width="51%"></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-6">
+                                    <div class="progress-bar">
+                                        <div class="bar-data">
+                                            <span class="bar-title">JavaScript</span>
+                                            <span class="bar-value">52%</span>
+                                        </div>
+                                        <div class="bar-line">
+                                            <span class="bar-fill" data-width="67%"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="progress-bar">
+                                        <div class="bar-data">
+                                            <span class="bar-title">Drupal</span>
+                                            <span class="bar-value">61%</span>
+                                        </div>
+                                        <div class="bar-line">
+                                            <span class="bar-fill" data-width="79%"></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-6">
+                                    <div class="progress-bar">
+                                        <div class="bar-data">
+                                            <span class="bar-title">HTML &amp; CSS</span>
+                                            <span class="bar-value">89%</span>
+                                        </div>
+                                        <div class="bar-line">
+                                            <span class="bar-fill" data-width="67%"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="progress-bar">
+                                        <div class="bar-data">
+                                            <span class="bar-title">PHP &amp; MySQL</span>
+                                            <span class="bar-value">99%</span>
+                                        </div>
+                                        <div class="bar-line">
+                                            <span class="bar-fill" data-width="54%"></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-6">
+                                    <div class="progress-bar">
+                                        <div class="bar-data">
+                                            <span class="bar-title">Photoshop</span>
+                                            <span class="bar-value">97%</span>
+                                        </div>
+                                        <div class="bar-line">
+                                            <span class="bar-fill" data-width="80%"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section><!-- #skills -->
+
+                <section id="portfolio" class="section section-portfolio">
+                    <div class="animate-up">
+                        <h2 class="section-title">Portfolio</h2>
+
+                        <div class="filter">
+                            <div class="filter-inner">
+                                <div class="filter-btn-group">
+                                    <button data-filter="*" class="active">All</button>
+                                    <button data-filter=".photography">Photography</button>
+                                    <button data-filter=".nature">Nature</button>
+                                </div>
+                                <div class="filter-bar">
+                                    <span class="filter-bar-line" style="left: 0px; width: 35px;"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="grid" style="position: relative; height: 597.25px;">
+                            <div class="grid-sizer"></div>
+
+                            <div class="grid-item size22 photography" style="position: absolute; left: 0%; top: 0px;">
+                                <div class="grid-box">
+                                    <figure class="portfolio-figure">
+                                        <img src="img/uploads/portfolio/portfolio-thumb-05-610x600.jpg" alt="">
+                                        <figcaption class="portfolio-caption">
+                                            <div class="portfolio-caption-inner">
+                                                <h3 class="portfolio-title">Street Photography</h3>
+                                                <h4 class="portfolio-cat">Photography</h4>
+
+                                                <div class="btn-group">
+                                                    <a class="btn-link" href="http://bit.ly/1YtB8he" target="_blank"><i
+                                                            class="rsicon rsicon-link"></i></a>
+                                                    <a class="portfolioFancybox btn-zoom"
+                                                        data-fancybox-group="portfolioFancybox1"
+                                                        href="#portfolio1-inline1"><i class="rsicon rsicon-eye"></i></a>
+                                                    <a class="portfolioFancybox hidden"
+                                                        data-fancybox-group="portfolioFancybox1"
+                                                        href="#portfolio1-inline2"></a>
+                                                    <a class="portfolioFancybox hidden"
+                                                        data-fancybox-group="portfolioFancybox1"
+                                                        href="#portfolio1-inline3"></a>
+                                                </div>
+                                            </div>
+                                        </figcaption>
+                                    </figure>
+
+                                    <!-- Start: Portfolio Inline Boxes -->
+                                    <div id="portfolio1-inline1" class="fancybox-inline-box">
+                                        <div class="inline-embed" data-embed-type="image"
+                                            data-embed-url="img/uploads/portfolio/portfolio-thumb-05-large.jpg"></div>
+                                        <div class="inline-cont">
+                                            <h2 class="inline-title">Street photography is photography that features the
+                                                chance encounters and random accidents within public places.</h2>
+                                            <div class="inline-text">
+                                                <p>Street photography does not necessitate the presence of a street or
+                                                    even the urban environment. Though people usually feature directly,
+                                                    street photography might be absent of people and can be an object or
+                                                    environment where the image projects a decidedly human character in
+                                                    facsimile or aesthetic.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div id="portfolio1-inline2" class="fancybox-inline-box">
+                                        <div class="inline-embed" data-embed-type="image"
+                                            data-embed-url="img/uploads/portfolio/portfolio-thumb-01-large.jpg"></div>
+                                        <div class="inline-cont">
+                                            <div class="inline-text">
+                                                <h2 class="inline-title">Framing and timing</h2>
+                                                <p>Framing and timing can be key aspects of the craft with the aim of
+                                                    some street photography being to create images at a decisive or
+                                                    poignant moment. Street photography can focus on emotions displayed,
+                                                    thereby also recording people's history from an emotional point of
+                                                    view.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div id="portfolio1-inline3" class="fancybox-inline-box">
+                                        <div class="inline-embed" data-embed-type="iframe"
+                                            data-embed-url="https://player.vimeo.com/video/118244244"></div>
+                                        <div class="inline-cont">
+                                            <div class="inline-text">
+                                                <h2 class="inline-title">A Look Into Documenting Street Fashion
+                                                    Photography</h2>
+                                                <p>HB Nam is an internationally known street fashion photographer. In
+                                                    this Leica Camera Portrait, Nam explains how he started in
+                                                    photography and what photography means to him. For Nam, it's about
+                                                    documenting what's around him and the concentration required to
+                                                    achieve a good shot.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End: Portfolio Inline Boxes -->
+                                </div>
+                            </div><!-- .grid-item -->
+
+                            <div class="grid-item size11 bridge" style="position: absolute; left: 66.5957%; top: 0px;">
+                                <div class="grid-box">
+                                    <figure class="portfolio-figure">
+                                        <img src="img/uploads/portfolio/portfolio-thumb-11-289x281.jpg" alt="">
+                                        <figcaption class="portfolio-caption">
+                                            <div class="portfolio-caption-inner">
+                                                <h3 class="portfolio-title">Suspension Bridge</h3>
+                                                <h4 class="portfolio-cat">Bridge</h4>
+
+                                                <div class="btn-group">
+                                                    <a class="btn-link" href="http://bit.ly/1YtB8he" target="_blank"><i
+                                                            class="rsicon rsicon-link"></i></a>
+                                                    <a class="portfolioFancybox btn-zoom"
+                                                        data-fancybox-group="portfolioFancybox2"
+                                                        href="#portfolio2-inline1"><i class="rsicon rsicon-eye"></i></a>
+                                                </div>
+                                            </div>
+                                        </figcaption>
+                                    </figure>
+
+                                    <!-- Start: Portfolio Inline Boxes -->
+                                    <div id="portfolio2-inline1" class="fancybox-inline-box">
+                                        <div class="inline-cont">
+                                            <h2 class="inline-title">Suspension Bridges - Design Technology</h2>
+                                            <div class="inline-text">
+                                                <p>Suspension bridges in their simplest form were originally made from
+                                                    rope and wood.
+                                                    Modern suspension bridges use a box section roadway supported by
+                                                    high tensile strength cables.
+                                                    In the early nineteenth century, suspension bridges used iron chains
+                                                    for cables. The high tensile cables used in most modern suspension
+                                                    bridges were introduced in the late nineteenth century.<br>
+                                                    Today, the cables are made of thousands of individual steel wires
+                                                    bound tightly together. Steel, which is very strong under tension,
+                                                    is
+                                                    an ideal material for cables; a single steel wire, only 0.1 inch
+                                                    thick, can support over half a ton without breaking.</p>
+                                                <p>Light, and strong, suspension bridges can span distances from 2,000
+                                                    to 7,000 feet far longer than any other kind of bridge. They are
+                                                    ideal for covering busy waterways.</p>
+                                                <p>With any bridge project the choice of materials and form usually
+                                                    comes down to cost.
+                                                    Suspension bridges tend to be the most expensive to build. A
+                                                    suspension bridge suspends the roadway from huge main cables, which
+                                                    extend
+                                                    from one end of the bridge to the other. These cables rest on top of
+                                                    high towers and have to be securely anchored into the bank at either
+                                                    end of the bridge. The towers enable the main cables to be draped
+                                                    over long distances. Most of the weight or load of the bridge is
+                                                    transferred by the cables to the anchorage systems. These are
+                                                    imbedded in either solid rock or huge concrete blocks. Inside the
+                                                    anchorages,
+                                                    the cables are spread over a large area to evenly distribute the
+                                                    load and to prevent the cables from breaking free.</p>
+                                                <p>The Arthashastra of Kautilya mentions the construction of dams and
+                                                    bridges.A Mauryan bridge near Girnar was surveyed by James Princep.
+                                                    The bridge was swept away during a flood, and later repaired by
+                                                    Puspagupta, the chief architect of emperor Chandragupta I. The
+                                                    bridge
+                                                    also fell under the care of the Yavana Tushaspa, and the Satrap
+                                                    Rudra Daman. The use of stronger bridges using plaited bamboo and
+                                                    iron
+                                                    chain was visible in India by about the 4th century. A number of
+                                                    bridges, both for military and commercial purposes, were constructed
+                                                    by
+                                                    the Mughal administration in India.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End: Portfolio Inline Boxes -->
+                                </div>
+                            </div><!-- .grid-item -->
+
+                            <div class="grid-item size11 nature photography"
+                                style="position: absolute; left: 66.5957%; top: 298px;">
+                                <div class="grid-box">
+                                    <figure class="portfolio-figure">
+                                        <img src="img/uploads/portfolio/portfolio-thumb-08-289x281.jpg" alt="">
+                                        <figcaption class="portfolio-caption">
+                                            <div class="portfolio-caption-inner">
+                                                <h3 class="portfolio-title">Rocky Mountains</h3>
+                                                <h4 class="portfolio-cat">Nature, Photography</h4>
+
+                                                <div class="btn-group">
+                                                    <a class="btn-link" href="http://bit.ly/1YtB8he" target="_blank"><i
+                                                            class="rsicon rsicon-link"></i></a>
+                                                    <a class="portfolioFancybox btn-zoom"
+                                                        data-fancybox-group="portfolioFancybox3"
+                                                        href="#portfolio3-inline1"><i class="rsicon rsicon-eye"></i></a>
+                                                    <a class="portfolioFancybox hidden"
+                                                        data-fancybox-group="portfolioFancybox3"
+                                                        href="#portfolio3-inline2"></a>
+                                                    <a class="portfolioFancybox hidden"
+                                                        data-fancybox-group="portfolioFancybox3"
+                                                        href="#portfolio3-inline3"></a>
+                                                </div>
+                                            </div>
+                                        </figcaption>
+                                    </figure>
+
+                                    <!-- Start: Portfolio Inline Boxes -->
+                                    <div id="portfolio3-inline1" class="fancybox-inline-box">
+                                        <div class="inline-embed" data-embed-type="image"
+                                            data-embed-url="img/uploads/portfolio/portfolio-thumb-08-large.jpg"></div>
+                                    </div>
+
+                                    <div id="portfolio3-inline2" class="fancybox-inline-box">
+                                        <div class="inline-embed" data-embed-type="image"
+                                            data-embed-url="img/uploads/portfolio/portfolio-thumb-04-large.jpg"></div>
+                                    </div>
+
+                                    <div id="portfolio3-inline3" class="fancybox-inline-box">
+                                        <div class="inline-embed" data-embed-type="image"
+                                            data-embed-url="img/uploads/portfolio/portfolio-thumb-02-large.jpg"></div>
+                                    </div>
+                                    <!-- End: Portfolio Inline Boxes -->
+                                </div>
+                            </div><!-- .grid-item -->
+                        </div>
+
+                        <div class="grid-more">
+                            <span class="ajax-loader"></span>
+                            <button class="btn btn-border ripple"><i class="rsicon rsicon-add"></i></button>
+                        </div>
+                    </div>
+                </section><!-- #portfolio -->
+
+                <section id="experience" class="section section-experience">
+                    <div class="animate-up">
+                        <h2 class="section-title">Work Experience</h2>
+
+                        <div class="timeline">
+                            <div class="timeline-bar" style="top: 80px; height: 666px;"></div>
+                            <div class="timeline-inner clearfix" style="height: 999px;">
+                                <div class="timeline-box timeline-box-left"
+                                    style="position: absolute; left: 0px; top: 0px;">
+                                    <span class="dot"></span>
+                                    <div class="timeline-box-inner animate-right">
+                                        <span class="arrow"></span>
+                                        <div class="date">2014 - 2016</div>
+                                        <h3>PINEAPPLE</h3>
+                                        <h4>Full Stack developer</h4>
+                                        <p>Worked as part of a multi-disciplinary team, carrying out ad-hoc tasks as
+                                            requested by the IT Manager. Had a specific brief to ensure the websites
+                                            build for customer’s precisely matched their requirements.developers and
+                                            marketers.</p>
+                                    </div>
+                                </div>
+
+                                <div class="timeline-box timeline-box-right"
+                                    style="position: absolute; right: 0px; top: 70px;">
+                                    <span class="dot"></span>
+                                    <div class="timeline-box-inner animate-left">
+                                        <span class="arrow"></span>
+                                        <div class="date">2011 - 2014</div>
+                                        <h3>MACROSOOFT</h3>
+                                        <h4>Web Developer</h4>
+                                        <p>I was responsible for working on a range of projects, designing appealing
+                                            websites and interacting on a daily basis with graphic designers, back-end
+                                            developers and marketers.</p>
+                                    </div>
+                                </div>
+
+                                <div class="timeline-box timeline-box-left"
+                                    style="position: absolute; left: 0px; top: 334px;">
+                                    <span class="dot"></span>
+                                    <div class="timeline-box-inner animate-right">
+                                        <span class="arrow"></span>
+                                        <div class="date">2003 - 2006</div>
+                                        <h3>JOOJLE</h3>
+                                        <h4>Systems Analyst / Web Developer</h4>
+                                        <p>Rebuilt and enhanced existing ASP B2C site with ASP.NET 2.0 Framework and
+                                            tools. Technology consists of ASP.NET 2.0 (C#), IIS, Microsoft SQL Server
+                                            2005, Stored Procedures &amp; PayPal Instant Payment Notification.</p>
+                                    </div>
+                                </div>
+
+                                <div class="timeline-box timeline-box-right"
+                                    style="position: absolute; right: 0px; top: 380px;">
+                                    <span class="dot"></span>
+                                    <div class="timeline-box-inner animate-left">
+                                        <span class="arrow"></span>
+                                        <div class="date">2004 - 2008</div>
+                                        <h3>IBBBM</h3>
+                                        <h4>Webmaster / Web Developer</h4>
+                                        <p>Developed, managed, operated and promoted an Internet business.Handled
+                                            customer support issues.Planned and managed business finances.</p>
+                                    </div>
+                                </div>
+
+                                <div class="timeline-box timeline-box-left"
+                                    style="position: absolute; left: 0px; top: 668px;">
+                                    <span class="dot"></span>
+                                    <div class="timeline-box-inner animate-right">
+                                        <span class="arrow"></span>
+                                        <div class="date">2003 - 2004</div>
+                                        <h3>HEADBOOK</h3>
+                                        <h4>Intern</h4>
+                                        <p>This was beginning of my career. Developed, managed, operated and promoted an
+                                            Internet business.Handled customer support issues.</p>
+                                    </div>
+                                </div>
+
+                                <div class="timeline-box timeline-box-right"
+                                    style="position: absolute; right: 0px; top: 666px;">
+                                    <span class="dot"></span>
+                                    <div class="timeline-box-inner animate-left">
+                                        <span class="arrow"></span>
+                                        <div class="date">2000 - 2003</div>
+                                        <h3>UBEAR</h3>
+                                        <h4>Taxi Driver</h4>
+                                        <p>Driving from point A to point B and if necessary to point C and sometimes
+                                            even to point R and point S. I was known as experienced driver. Once my
+                                            passenger who was a web developer told me about his job and I have made my
+                                            decision at that moment to became a developer.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section><!-- #experience -->
+
+                <section id="education" class="section section-education">
+                    <div class="animate-up">
+                        <h2 class="section-title">Education</h2>
+                        <div class="timeline">
+                            <div class="timeline-bar" style="top: 80px; height: 418px;"></div>
+                            <div class="timeline-inner clearfix" style="height: 590px;">
+
+                                <div class="timeline-box timeline-box-compact timeline-box-left"
+                                    style="position: absolute; left: 0px; top: 0px;">
+                                    <span class="dot"></span>
+
+                                    <div class="timeline-box-inner animate-right">
+                                        <span class="arrow"></span>
+                                        <div class="date"><span>2012 - 2014</span></div>
+                                        <h3>Master of Information Technology</h3>
+                                        <h4>MIT&amp;T</h4>
+                                    </div>
+                                </div>
+
+                                <div class="timeline-box timeline-box-compact timeline-box-right"
+                                    style="position: absolute; right: 0px; top: 70px;">
+                                    <span class="dot"></span>
+
+                                    <div class="timeline-box-inner animate-left">
+                                        <span class="arrow"></span>
+                                        <div class="date"><span>2008 - 2012</span></div>
+                                        <h3>Bachelor Computer Engineering</h3>
+                                        <h4>Harwarg Universitey</h4>
+                                    </div>
+                                </div>
+
+                                <div class="timeline-box timeline-box-compact timeline-box-left"
+                                    style="position: absolute; left: 0px; top: 197px;">
+                                    <span class="dot"></span>
+
+                                    <div class="timeline-box-inner animate-right">
+                                        <span class="arrow"></span>
+                                        <div class="date"><span>2007 - 2008</span></div>
+                                        <h3>Certificate for courses of Computer Science</h3>
+                                        <h4>Stanfoorb Universitey</h4>
+                                    </div>
+                                </div>
+
+                                <div class="timeline-box timeline-box-compact timeline-box-right"
+                                    style="position: absolute; right: 0px; top: 267px;">
+                                    <span class="dot"></span>
+
+                                    <div class="timeline-box-inner animate-left">
+                                        <span class="arrow"></span>
+                                        <div class="date"><span>2007 - 2008</span></div>
+                                        <h3>1 week Courses of Information Systems</h3>
+                                        <h4>Oxforz Universitey</h4>
+                                    </div>
+                                </div>
+
+                                <div class="timeline-box timeline-box-compact timeline-box-left"
+                                    style="position: absolute; left: 0px; top: 418px;">
+                                    <span class="dot"></span>
+
+                                    <div class="timeline-box-inner animate-right">
+                                        <span class="arrow"></span>
+                                        <div class="date"><span>2006 - 2007</span></div>
+                                        <h3>Software Engineering</h3>
+                                        <h4>Sordonne University</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section><!-- #education -->
+
+                <section id="clients" class="section section-clients">
+                    <div class="animate-up">
+
+                        <div class="clients-carousel owl-carousel owl-theme" style="opacity: 1; display: block;">
+                            <div class="owl-wrapper-outer">
+                                <div class="owl-wrapper"
+                                    style="width: 4230px; left: 0px; display: block; transition: all 800ms ease 0s; transform: translate3d(-235px, 0px, 0px);">
+                                    <div class="owl-item" style="width: 235px;">
+                                        <div class="client-logo">
+                                            <a href="http://market.envato.com" target="_blank"><img
+                                                    src="img/uploads/logos/logo-envato.png" title="envato"
+                                                    alt="envato"></a>
+                                        </div>
+                                    </div>
+                                    <div class="owl-item" style="width: 235px;">
+                                        <div class="client-logo">
+                                            <img src="img/uploads/logos/logo-angularjs.png" title="angular js"
+                                                alt="angular js">
+                                        </div>
+                                    </div>
+                                    <div class="owl-item" style="width: 235px;">
+                                        <div class="client-logo">
+                                            <a href="https://www.omniref.com/ruby/gems/teaspoon/0.7.9"
+                                                target="_blank"><img src="img/uploads/logos/logo-teaspoon.png"
+                                                    title="teaspoon" alt="teaspoon"></a>
+                                        </div>
+                                    </div>
+                                    <div class="owl-item" style="width: 235px;">
+                                        <div class="client-logo">
+                                            <a href="https://wordpress.com" target="_blank"><img
+                                                    src="img/uploads/logos/logo-wordpress.png" title="wordpress"
+                                                    alt="wordpress"></a>
+                                        </div>
+                                    </div>
+                                    <div class="owl-item" style="width: 235px;">
+                                        <div class="client-logo">
+                                            <a href="https://evernote.com" target="_blank"><img
+                                                    src="img/uploads/logos/logo-evernote.png" title="evernote"
+                                                    alt="evernote"></a>
+                                        </div>
+                                    </div>
+                                    <div class="owl-item" style="width: 235px;">
+                                        <div class="client-logo">
+                                            <a href="http://compass-style.org" target="_blank"><img
+                                                    src="img/uploads/logos/logo-compass.png" title="compass"
+                                                    alt="compass"></a>
+                                        </div>
+                                    </div>
+                                    <div class="owl-item" style="width: 235px;">
+                                        <div class="client-logo">
+                                            <a href="http://getbootstrap.com" target="_blank"><img
+                                                    src="img/uploads/logos/logo-bootstrap.png" title="bootstrap"
+                                                    alt="bootstrap"></a>
+                                        </div>
+                                    </div>
+                                    <div class="owl-item" style="width: 235px;">
+                                        <div class="client-logo">
+                                            <a href="http://jasmine.github.io" target="_blank"><img
+                                                    src="img/uploads/logos/logo-jasmine.png" title="jasmine"
+                                                    alt="jasmine"></a>
+                                        </div>
+                                    </div>
+                                    <div class="owl-item" style="width: 235px;">
+                                        <div class="client-logo">
+                                            <a href="https://jquery.com" target="_blank"><img
+                                                    src="img/uploads/logos/logo-jquery.png" title="jquery"
+                                                    alt="jquery"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        </div>
+                    </div>
+                </section><!-- #clients -->
+
+                <section id="references" class="section section-references">
+                    <div class="animate-up">
+                        <h2 class="section-title">References</h2>
+                        <div class="section-box">
+                            <div class="bx-wrapper" style="max-width: 100%; margin: 0px auto;">
+                                <div class="bx-viewport"
+                                    style="width: 100%; overflow: hidden; position: relative; height: 282px;">
+                                    <ul class="ref-slider"
+                                        style="width: 515%; position: relative; transition-duration: 0s; transform: translate3d(-810px, 0px, 0px);">
+                                        <li style="float: left; list-style: none; position: relative; width: 810px;"
+                                            class="bx-clone">
+                                            <div class="ref-box">
+                                                <div class="person-speech">
+                                                    <p>I have known Do Ngoc Huynh for 10 years as web developer. I can
+                                                        confirm that he is a man of great integrity, is extremely
+                                                        dedicated
+                                                        to his family and work, and is entirely peace-loving.</p>
+                                                </div>
+                                                <div class="person-info clearfix">
+                                                    <img class="person-img" src="img/uploads/rs-avatar-60x60.jpg"
+                                                        alt="Headshot">
+                                                    <div class="person-name-title">
+                                                        <span class="person-name">Alexander Jokovich</span>
+                                                        <span class="person-title">Modern LLC , HR</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li style="float: left; list-style: none; position: relative; width: 810px;">
+                                            <div class="ref-box">
+                                                <div class="person-speech">
+                                                    <p>I confirm that I have dealt with New Company Ltd since 1998.
+                                                        Their work has been a major factor in our
+                                                        website's success, helping it to become one of the most visited
+                                                        resources of its kind on the Internet.</p>
+                                                </div>
+                                                <div class="person-info clearfix">
+                                                    <img class="person-img" src="img/uploads/rs-avatar-60x60.jpg"
+                                                        alt="Headshot">
+                                                    <div class="person-name-title">
+                                                        <span class="person-name">Alexander Jokovich</span>
+                                                        <span class="person-title">Modern LLC , HR</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li style="float: left; list-style: none; position: relative; width: 810px;">
+                                            <div class="ref-box">
+                                                <div class="person-speech">
+                                                    <p>I confirm that New Company Ltd has been a customer of ours since
+                                                        1998, during which time they have always made payments reliably,
+                                                        in full and on time.</p>
+                                                </div>
+                                                <div class="person-info clearfix">
+                                                    <img class="person-img" src="img/uploads/rs-avatar-60x60.jpg"
+                                                        alt="Headshot">
+                                                    <div class="person-name-title">
+                                                        <span class="person-name">Alexander Jokovich</span>
+                                                        <span class="person-title">Modern LLC , HR</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li style="float: left; list-style: none; position: relative; width: 810px;">
+                                            <div class="ref-box">
+                                                <div class="person-speech">
+                                                    <p>I have known Do Ngoc Huynh for 10 years as web developer. I can
+                                                        confirm that he is a man of great integrity, is extremely
+                                                        dedicated
+                                                        to his family and work, and is entirely peace-loving.</p>
+                                                </div>
+                                                <div class="person-info clearfix">
+                                                    <img class="person-img" src="img/uploads/rs-avatar-60x60.jpg"
+                                                        alt="Headshot">
+                                                    <div class="person-name-title">
+                                                        <span class="person-name">Alexander Jokovich</span>
+                                                        <span class="person-title">Modern LLC , HR</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li style="float: left; list-style: none; position: relative; width: 810px;"
+                                            class="bx-clone">
+                                            <div class="ref-box">
+                                                <div class="person-speech">
+                                                    <p>I confirm that I have dealt with New Company Ltd since 1998.
+                                                        Their work has been a major factor in our
+                                                        website's success, helping it to become one of the most visited
+                                                        resources of its kind on the Internet.</p>
+                                                </div>
+                                                <div class="person-info clearfix">
+                                                    <img class="person-img" src="img/uploads/rs-avatar-60x60.jpg"
+                                                        alt="Headshot">
+                                                    <div class="person-name-title">
+                                                        <span class="person-name">Alexander Jokovich</span>
+                                                        <span class="person-title">Modern LLC , HR</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="bx-controls"></div>
+                            </div>
+                            <div class="ref-slider-nav">
+                                <span id="ref-slider-prev" class="slider-prev"><a class="bx-next" href=""><i
+                                            class="rsicon rsicon-chevron_right"></i></a></span>
+                                <span id="ref-slider-next" class="slider-next"><a class="bx-prev" href=""><i
+                                            class="rsicon rsicon-chevron_left"></i></a></span>
+                            </div>
+                        </div>
+                    </div>
+                </section><!-- #references -->
+
+                <section id="prices" class="section section-prices">
+                    <div class="animate-up">
+                        <h2 class="section-title">Pricing</h2>
+
+                        <div class="row price-list">
+                            <div class="col-sm-4">
+                                <div class="price-box" style="height: 627px;">
+                                    <div class="price-box-top">
+                                        <span>$16</span><small>/mo</small>
+                                    </div>
+                                    <div class="price-box-content">
+                                        <h3>Basic</h3>
+                                        <ul>
+                                            <li>Manage tasks</li>
+                                            <li>Discussions in tasks</li>
+                                            <li>File sharing <span class="new">new</span></li>
+                                            <li><del>Real-time Activity Stream</del></li>
+                                            <li><del>Spreadsheet View</del></li>
+                                            <li><del>iPhone and Android apps</del></li>
+                                            <li><del>Advanced email integration</del></li>
+                                            <li><del>Basic Integrations</del></li>
+                                        </ul>
+                                        <div class="btn-wrap">
+                                            <a class="btn btn-lg btn-border"
+                                                href="http://themeforest.net/user/px-lab/portfolio?ref=PX-lab">Buy
+                                                Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-4">
+                                <div class="price-box box-primary" style="height: 627px;">
+                                    <div class="price-box-top">
+                                        <span>$50</span><small>/mo</small>
+                                    </div>
+                                    <div class="price-box-content">
+                                        <h3>Professional</h3>
+                                        <ul>
+                                            <li>Manage tasks</li>
+                                            <li>Discussions in tasks</li>
+                                            <li>File sharing <span class="new">new</span></li>
+                                            <li>Real-time Activity Stream</li>
+                                            <li>Spreadsheet View <span class="new">new</span></li>
+                                            <li><del>iPhone and Android apps</del></li>
+                                            <li><del>Advanced email integration</del></li>
+                                            <li><del>Basic Integrations</del></li>
+                                        </ul>
+                                        <div class="btn-wrap">
+                                            <a class="btn btn-lg btn-border"
+                                                href="http://themeforest.net/user/px-lab/portfolio?ref=PX-lab">Buy
+                                                Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-4">
+                                <div class="price-box" style="height: 627px;">
+                                    <div class="price-box-top">
+                                        <span>$250</span><small>/mo</small>
+                                    </div>
+                                    <div class="price-box-content">
+                                        <h3>Enterprise</h3>
+                                        <ul>
+                                            <li>Manage tasks</li>
+                                            <li>Discussions in tasks</li>
+                                            <li>File sharing <span class="new">new</span></li>
+                                            <li>Real-time Activity Stream</li>
+                                            <li>Spreadsheet View <span class="new">new</span></li>
+                                            <li>iPhone and Android apps</li>
+                                            <li>Advanced email integration</li>
+                                            <li>Basic Integrations</li>
+                                        </ul>
+                                        <div class="btn-wrap">
+                                            <a class="btn btn-lg btn-border"
+                                                href="http://themeforest.net/user/px-lab/portfolio?ref=PX-lab">Buy
+                                                Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section><!-- #prices -->
+
+                <section id="blog" class="section section-blog">
+                    <div class="animate-up">
+                        <h2 class="section-title">From The Blog</h2>
+
+                        <div class="blog-grid" style="position: relative; height: 482.734px;">
+                            <div class="grid-sizer"></div>
+                            <div class="grid-item" style="position: absolute; left: 0%; top: 0px;">
+                                <article class="post-box">
+                                    <div class="post-media">
+                                        <div class="post-image">
+                                            <a href="single.html"><img src="img/uploads/thumb-449x286-1.jpg" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    <div class="post-data">
+                                        <time class="post-datetime" datetime="2015-03-13T07:44:01+00:00">
+                                            <span class="day">03</span>
+                                            <span class="month">MAY</span>
+                                        </time>
+
+                                        <div class="post-tag">
+                                            <a href="">#Photo</a>
+                                            <a href="">#Architect</a>
+                                        </div>
+
+                                        <h3 class="post-title">
+                                            <a href="single-image.html">Image Post</a>
+                                        </h3>
+
+                                        <div class="post-info">
+                                            <a href=""><i class="rsicon rsicon-user"></i>by admin</a>
+                                            <a href=""><i class="rsicon rsicon-comments"></i>56</a>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+
+                            <div class="grid-item" style="position: absolute; left: 50%; top: 0px;">
+                                <article class="post-box">
+                                    <div class="post-media">
+                                        <div class="post-image">
+                                            <a href="single-vimeo.html">
+                                                <img src="img/uploads/thumb-449x286-5.jpg" alt="">
+                                                <span class="post-type-icon"><i class="rsicon rsicon-play"></i></span>
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    <div class="post-data">
+                                        <time class="post-datetime" datetime="2015-03-13T07:44:01+00:00">
+                                            <span class="day">03</span>
+                                            <span class="month">MAY</span>
+                                        </time>
+
+                                        <div class="post-tag">
+                                            <a href="">#Photo</a>
+                                            <a href="">#Architect</a>
+                                        </div>
+
+                                        <h3 class="post-title">
+                                            <a href="single-vimeo.html">Vimeo Video Post</a>
+                                        </h3>
+
+                                        <div class="post-info">
+                                            <a href=""><i class="rsicon rsicon-user"></i>by admin</a>
+                                            <a href=""><i class="rsicon rsicon-comments"></i>56</a>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                </section><!-- #blog -->
+
+                <section id="text-section" class="section section-text">
+                    <div class="animate-up animated">
+                        <h2 class="section-title">Text Section</h2>
+                        <div class="section-box">
+                            <p>Hello! I’m Do Ngoc Huynh and this is custom editor section. You can add here any text or
+                                "Strikethrough" text and even you can add bulleted or numbered text and even you will be
+                                able to add blockquot text. You can align this text to left/right/center.
+
+                                One of the most interesting options is to divide this section to "One half" "One Third"
+                                and "One Fourth".
+
+                                You can use this for Honors or Achievments or Awards sections. You can insert images and
+                                photos right in this editor!</p>
+                        </div>
+                    </div>
+                </section><!-- #text-section -->
+
+                <section id="interests" class="section section-interests">
+                    <div class="animate-up">
+                        <h2 class="section-title">My Interests</h2>
+
+                        <div class="section-box">
+                            <p>I have a keen interest in photography. I was vice-president of the photography club
+                                during my time at university,
+                                and during this period I organised a number of very successful exhibitions and events
+                                both on and off campus.
+                                <br>I also play the piano to grade 8 standard.</p>
+
+                            <ul class="interests-list">
+                                <li>
+                                    <i class="map-icon map-icon-bicycling"></i>
+                                    <span style="left: 7px;">Bicycling</span>
+                                </li>
+                                <li>
+                                    <i class="map-icon map-icon-movie-theater"></i>
+                                    <span style="left: -6.5px;">Watch Movies</span>
+                                </li>
+                                <li>
+                                    <i class="map-icon map-icon-ice-skating"></i>
+                                    <span style="left: 10.5px;">Skating</span>
+                                </li>
+                                <li>
+                                    <i class="map-icon map-icon-shopping-mall"></i>
+                                    <span style="left: 5px;">Shopping</span>
+                                </li>
+                                <li>
+                                    <i class="map-icon map-icon-tennis"></i>
+                                    <span style="left: -7.5px;">Playing Tennis</span>
+                                </li>
+                                <li>
+                                    <i class="map-icon map-icon-bowling-alley"></i>
+                                    <span style="left: -11px;">Playing Bowling</span>
+                                </li>
+                                <li>
+                                    <i class="map-icon map-icon-swimming"></i>
+                                    <span style="left: 2.5px;">Swimming</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section><!-- #interests -->
+
+                <section id="calendar" class="section section-calendar">
+                    <div class="animate-up">
+                        <h2 class="section-title">Availability Calendar</h2>
+
+                        <div class="calendar-busy" data-weekstart="monday">
+                            <div class="calendar-today"
+                                style="background-image: url('img/uploads/rs-calendar-cover.jpg')">
+                                <div class="valign-outer">
+                                    <div class="valign-middle">
+                                        <div class="valign-inner">
+                                            <div class="date">
+                                                <span class="day">2</span>
+                                                <span class="month">Jan</span>
+                                            </div>
+                                            <div class="week-day">Thursday</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="calendar-cont">
+                                <div class="calendar-header">
+                                    <div class="calendar-nav">
+                                        <span class="active-date"><span class="active-month">January</span><span
+                                                class="active-year">2020</span></span>
+                                        <a class="calendar-prev ripple-centered" title="Prev"><i
+                                                class="rsicon rsicon-chevron_left"></i></a>
+                                        <a class="calendar-next ripple-centered" title="Next"><i
+                                                class="rsicon rsicon-chevron_right"></i></a>
+                                    </div>
+                                </div>
+
+                                <table class="calendar-body">
+                                    <thead class="calendar-thead">
+                                        <tr>
+                                            <th>Mon</th>
+                                            <th>Tue</th>
+                                            <th>Wed</th>
+                                            <th>Thu</th>
+                                            <th>Fri</th>
+                                            <th>Sat</th>
+                                            <th>Sun</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody class="calendar-tbody">
+                                        <tr>
+                                            <td class="calendar-other-month"><span></span></td>
+                                            <td class="calendar-other-month"><span></span></td>
+                                            <td class="calendar-current-month"><span class="">1</span></td>
+                                            <td class="calendar-current-month"><span class="current-day">2</span></td>
+                                            <td class="calendar-current-month"><span class="">3</span></td>
+                                            <td class="calendar-current-month"><span class="">4</span></td>
+                                            <td class="calendar-current-month"><span class="">5</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="calendar-current-month"><span class="">6</span></td>
+                                            <td class="calendar-current-month"><span class="">7</span></td>
+                                            <td class="calendar-current-month"><span class="">8</span></td>
+                                            <td class="calendar-current-month"><span class="">9</span></td>
+                                            <td class="calendar-current-month"><span class="">10</span></td>
+                                            <td class="calendar-current-month"><span class="">11</span></td>
+                                            <td class="calendar-current-month"><span class="">12</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="calendar-current-month"><span class="">13</span></td>
+                                            <td class="calendar-current-month"><span class="">14</span></td>
+                                            <td class="calendar-current-month"><span class="">15</span></td>
+                                            <td class="calendar-current-month"><span class="">16</span></td>
+                                            <td class="calendar-current-month"><span class="">17</span></td>
+                                            <td class="calendar-current-month"><span class="">18</span></td>
+                                            <td class="calendar-current-month"><span class="">19</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="calendar-current-month"><span class="">20</span></td>
+                                            <td class="calendar-current-month"><span class="">21</span></td>
+                                            <td class="calendar-current-month"><span class="">22</span></td>
+                                            <td class="calendar-current-month"><span class="">23</span></td>
+                                            <td class="calendar-current-month"><span class="">24</span></td>
+                                            <td class="calendar-current-month"><span class="">25</span></td>
+                                            <td class="calendar-current-month"><span class="">26</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="calendar-current-month"><span class="">27</span></td>
+                                            <td class="calendar-current-month"><span class="">28</span></td>
+                                            <td class="calendar-current-month"><span class="">29</span></td>
+                                            <td class="calendar-current-month"><span class="">30</span></td>
+                                            <td class="calendar-current-month"><span class="">31</span></td>
+                                            <td class="calendar-other-month"><span></span></td>
+                                            <td class="calendar-other-month"><span></span></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="calendar-other-month"><span></span></td>
+                                            <td class="calendar-other-month"><span></span></td>
+                                            <td class="calendar-other-month"><span></span></td>
+                                            <td class="calendar-other-month"><span></span></td>
+                                            <td class="calendar-other-month"><span></span></td>
+                                            <td class="calendar-other-month"><span></span></td>
+                                            <td class="calendar-other-month"><span></span></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <div class="calendar-busy-note">Sorry. I'm not available on those days</div>
+                            </div>
+                        </div>
+                    </div>
+                </section><!-- #calendar -->
+
+                <section id="contact" class="section section-contact">
+                    <div class="animate-up">
+                        <h2 class="section-title">Contact Me</h2>
+
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="section-box contact-form" style="min-height: 488px;">
+                                    <h3>Feel free to contact me</h3>
+
+                                    <form class="contactForm" action="php/contact_form.php" method="post">
+                                        <div class="input-field">
+                                            <input class="contact-name" type="text" name="name">
+                                            <span class="line"></span>
+                                            <label>Name</label>
+                                        </div>
+
+                                        <div class="input-field">
+                                            <input class="contact-email" type="email" name="email">
+                                            <span class="line"></span>
+                                            <label>Email</label>
+                                        </div>
+
+                                        <div class="input-field">
+                                            <input class="contact-subject" type="text" name="subject">
+                                            <span class="line"></span>
+                                            <label>Subject</label>
+                                        </div>
+
+                                        <div class="input-field">
+                                            <textarea class="contact-message" rows="4" name="message"></textarea>
+                                            <span class="line"></span>
+                                            <label>Message</label>
+                                        </div>
+
+                                        <span class="btn-outer btn-primary-outer ripple">
+                                            <input class="contact-submit btn btn-lg btn-primary" type="submit"
+                                                value="Send">
+                                        </span>
+
+                                        <div class="contact-response"></div>
+                                    </form>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6">
+                                <div class="section-box contact-info has-map" style="min-height: 488px;">
+                                    <ul class="contact-list">
+                                        <li class="clearfix">
+                                            <strong>Address</strong>
+                                            <span>Belgium, Brussels, Liutte 27, BE</span>
+                                        </li>
+                                        <li class="clearfix">
+                                            <strong>phone</strong>
+                                            <span><a href="tel:+12562548456">+1 256 254 84 56</a></span>
+                                        </li>
+                                        <li class="clearfix">
+                                            <strong>E-mail</strong>
+                                            <span><a
+                                                    href="mailto:robertsmith@company.com">robertsmith@company.com</a></span>
+                                        </li>
+                                    </ul>
+
+                                    <div id="map" data-latitude="50.84592" data-longitude="4.366859999999974"
+                                        style="overflow: hidden;">
+                                        <div
+                                            style="height: 100%; width: 100%; position: absolute; top: 0px; left: 0px; background-color: rgb(229, 227, 223);">
+                                            <div class="gm-style"
+                                                style="position: absolute; z-index: 0; left: 0px; top: 0px; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px;">
+                                                <div tabindex="0"
+                                                    style="position: absolute; z-index: 0; left: 0px; top: 0px; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px; cursor: url(&quot;https://maps.gstatic.com/mapfiles/openhand_8_8.cur&quot;), default; touch-action: pan-x pan-y;">
+                                                    <div
+                                                        style="z-index: 1; position: absolute; left: 50%; top: 50%; width: 100%; transform: translate(0px, 0px);">
+                                                        <div
+                                                            style="position: absolute; left: 0px; top: 0px; z-index: 100; width: 100%;">
+                                                            <div
+                                                                style="position: absolute; left: 0px; top: 0px; z-index: 0;">
+                                                                <div
+                                                                    style="position: absolute; z-index: 986; transform: matrix(1, 0, 0, 1, -190, -31);">
+                                                                    <div
+                                                                        style="position: absolute; left: 0px; top: 0px; width: 256px; height: 256px;">
+                                                                        <div style="width: 256px; height: 256px;"></div>
+                                                                    </div>
+                                                                    <div
+                                                                        style="position: absolute; left: -256px; top: 0px; width: 256px; height: 256px;">
+                                                                        <div style="width: 256px; height: 256px;"></div>
+                                                                    </div>
+                                                                    <div
+                                                                        style="position: absolute; left: -256px; top: -256px; width: 256px; height: 256px;">
+                                                                        <div style="width: 256px; height: 256px;"></div>
+                                                                    </div>
+                                                                    <div
+                                                                        style="position: absolute; left: 0px; top: -256px; width: 256px; height: 256px;">
+                                                                        <div style="width: 256px; height: 256px;"></div>
+                                                                    </div>
+                                                                    <div
+                                                                        style="position: absolute; left: 256px; top: -256px; width: 256px; height: 256px;">
+                                                                        <div style="width: 256px; height: 256px;"></div>
+                                                                    </div>
+                                                                    <div
+                                                                        style="position: absolute; left: 256px; top: 0px; width: 256px; height: 256px;">
+                                                                        <div style="width: 256px; height: 256px;"></div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div
+                                                            style="position: absolute; left: 0px; top: 0px; z-index: 101; width: 100%;">
+                                                        </div>
+                                                        <div
+                                                            style="position: absolute; left: 0px; top: 0px; z-index: 102; width: 100%;">
+                                                        </div>
+                                                        <div
+                                                            style="position: absolute; left: 0px; top: 0px; z-index: 103; width: 100%;">
+                                                            <div
+                                                                style="position: absolute; left: 0px; top: 0px; z-index: -1;">
+                                                                <div
+                                                                    style="position: absolute; z-index: 986; transform: matrix(1, 0, 0, 1, -190, -31);">
+                                                                    <div
+                                                                        style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 0px; top: 0px;">
+                                                                    </div>
+                                                                    <div
+                                                                        style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -256px; top: 0px;">
+                                                                    </div>
+                                                                    <div
+                                                                        style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -256px; top: -256px;">
+                                                                    </div>
+                                                                    <div
+                                                                        style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 0px; top: -256px;">
+                                                                    </div>
+                                                                    <div
+                                                                        style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 256px; top: -256px;">
+                                                                    </div>
+                                                                    <div
+                                                                        style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 256px; top: 0px;">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div
+                                                                style="width: 44px; height: 48px; position: absolute; left: -22px; top: -48px; z-index: 0;">
+                                                                <canvas width="44" height="48" draggable="false"
+                                                                    style="width: 44px; height: 48px; position: absolute; left: 0px; top: 0px; user-select: none;"></canvas>
+                                                            </div>
+                                                        </div>
+                                                        <div
+                                                            style="position: absolute; left: 0px; top: 0px; z-index: 0;">
+                                                            <div
+                                                                style="position: absolute; z-index: 986; transform: matrix(1, 0, 0, 1, -190, -31);">
+                                                                <div
+                                                                    style="position: absolute; left: -256px; top: 0px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;">
+                                                                    <img draggable="false" alt="" role="presentation"
+                                                                        src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i14!2i8389!3i5496!4i256!2m3!1e0!2sm!3i496208550!3m17!2svi-VN!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjV8cC5zOi0xMDB8cC5sOjY1fHAudjpvbixzLnQ6MnxwLnM6LTEwMHxwLmw6NTF8cC52OnNpbXBsaWZpZWQscy50OjQ5fHAuczotMTAwfHAudjpzaW1wbGlmaWVkLHMudDo1MHxwLnM6LTEwMHxwLmw6MzB8cC52Om9uLHMudDo1MXxwLnM6LTEwMHxwLmw6NDB8cC52Om9uLHMudDo0fHAuczotMTAwfHAudjpzaW1wbGlmaWVkLHMudDoxOHxwLnY6b2ZmLHMudDo2fHMuZTpsfHAudjpvbnxwLmw6LTI1fHAuczotMTAwLHMudDo2fHMuZTpnfHAuaDojZmZmZjAwfHAubDotMjV8cC5zOi05Nw!4e0&amp;key=AIzaSyBBxIKN4mTgYgTOXzxNSe67kqHr2vdDzR8&amp;token=73671"
+                                                                        style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;">
+                                                                </div>
+                                                                <div
+                                                                    style="position: absolute; left: -256px; top: -256px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;">
+                                                                    <img draggable="false" alt="" role="presentation"
+                                                                        src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i14!2i8389!3i5495!4i256!2m3!1e0!2sm!3i496208550!3m17!2svi-VN!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjV8cC5zOi0xMDB8cC5sOjY1fHAudjpvbixzLnQ6MnxwLnM6LTEwMHxwLmw6NTF8cC52OnNpbXBsaWZpZWQscy50OjQ5fHAuczotMTAwfHAudjpzaW1wbGlmaWVkLHMudDo1MHxwLnM6LTEwMHxwLmw6MzB8cC52Om9uLHMudDo1MXxwLnM6LTEwMHxwLmw6NDB8cC52Om9uLHMudDo0fHAuczotMTAwfHAudjpzaW1wbGlmaWVkLHMudDoxOHxwLnY6b2ZmLHMudDo2fHMuZTpsfHAudjpvbnxwLmw6LTI1fHAuczotMTAwLHMudDo2fHMuZTpnfHAuaDojZmZmZjAwfHAubDotMjV8cC5zOi05Nw!4e0&amp;key=AIzaSyBBxIKN4mTgYgTOXzxNSe67kqHr2vdDzR8&amp;token=13138"
+                                                                        style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;">
+                                                                </div>
+                                                                <div
+                                                                    style="position: absolute; left: 256px; top: -256px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;">
+                                                                    <img draggable="false" alt="" role="presentation"
+                                                                        src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i14!2i8391!3i5495!4i256!2m3!1e0!2sm!3i496208550!3m17!2svi-VN!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjV8cC5zOi0xMDB8cC5sOjY1fHAudjpvbixzLnQ6MnxwLnM6LTEwMHxwLmw6NTF8cC52OnNpbXBsaWZpZWQscy50OjQ5fHAuczotMTAwfHAudjpzaW1wbGlmaWVkLHMudDo1MHxwLnM6LTEwMHxwLmw6MzB8cC52Om9uLHMudDo1MXxwLnM6LTEwMHxwLmw6NDB8cC52Om9uLHMudDo0fHAuczotMTAwfHAudjpzaW1wbGlmaWVkLHMudDoxOHxwLnY6b2ZmLHMudDo2fHMuZTpsfHAudjpvbnxwLmw6LTI1fHAuczotMTAwLHMudDo2fHMuZTpnfHAuaDojZmZmZjAwfHAubDotMjV8cC5zOi05Nw!4e0&amp;key=AIzaSyBBxIKN4mTgYgTOXzxNSe67kqHr2vdDzR8&amp;token=72985"
+                                                                        style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;">
+                                                                </div>
+                                                                <div
+                                                                    style="position: absolute; left: 0px; top: -256px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;">
+                                                                    <img draggable="false" alt="" role="presentation"
+                                                                        src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i14!2i8390!3i5495!4i256!2m3!1e0!2sm!3i496208550!3m17!2svi-VN!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjV8cC5zOi0xMDB8cC5sOjY1fHAudjpvbixzLnQ6MnxwLnM6LTEwMHxwLmw6NTF8cC52OnNpbXBsaWZpZWQscy50OjQ5fHAuczotMTAwfHAudjpzaW1wbGlmaWVkLHMudDo1MHxwLnM6LTEwMHxwLmw6MzB8cC52Om9uLHMudDo1MXxwLnM6LTEwMHxwLmw6NDB8cC52Om9uLHMudDo0fHAuczotMTAwfHAudjpzaW1wbGlmaWVkLHMudDoxOHxwLnY6b2ZmLHMudDo2fHMuZTpsfHAudjpvbnxwLmw6LTI1fHAuczotMTAwLHMudDo2fHMuZTpnfHAuaDojZmZmZjAwfHAubDotMjV8cC5zOi05Nw!4e0&amp;key=AIzaSyBBxIKN4mTgYgTOXzxNSe67kqHr2vdDzR8&amp;token=38526"
+                                                                        style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;">
+                                                                </div>
+                                                                <div
+                                                                    style="position: absolute; left: 256px; top: 0px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;">
+                                                                    <img draggable="false" alt="" role="presentation"
+                                                                        src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i14!2i8391!3i5496!4i256!2m3!1e0!2sm!3i496208550!3m17!2svi-VN!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjV8cC5zOi0xMDB8cC5sOjY1fHAudjpvbixzLnQ6MnxwLnM6LTEwMHxwLmw6NTF8cC52OnNpbXBsaWZpZWQscy50OjQ5fHAuczotMTAwfHAudjpzaW1wbGlmaWVkLHMudDo1MHxwLnM6LTEwMHxwLmw6MzB8cC52Om9uLHMudDo1MXxwLnM6LTEwMHxwLmw6NDB8cC52Om9uLHMudDo0fHAuczotMTAwfHAudjpzaW1wbGlmaWVkLHMudDoxOHxwLnY6b2ZmLHMudDo2fHMuZTpsfHAudjpvbnxwLmw6LTI1fHAuczotMTAwLHMudDo2fHMuZTpnfHAuaDojZmZmZjAwfHAubDotMjV8cC5zOi05Nw!4e0&amp;key=AIzaSyBBxIKN4mTgYgTOXzxNSe67kqHr2vdDzR8&amp;token=2447"
+                                                                        style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;">
+                                                                </div>
+                                                                <div
+                                                                    style="position: absolute; left: 0px; top: 0px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;">
+                                                                    <img draggable="false" alt="" role="presentation"
+                                                                        src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i14!2i8390!3i5496!4i256!2m3!1e0!2sm!3i496208550!3m17!2svi-VN!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjV8cC5zOi0xMDB8cC5sOjY1fHAudjpvbixzLnQ6MnxwLnM6LTEwMHxwLmw6NTF8cC52OnNpbXBsaWZpZWQscy50OjQ5fHAuczotMTAwfHAudjpzaW1wbGlmaWVkLHMudDo1MHxwLnM6LTEwMHxwLmw6MzB8cC52Om9uLHMudDo1MXxwLnM6LTEwMHxwLmw6NDB8cC52Om9uLHMudDo0fHAuczotMTAwfHAudjpzaW1wbGlmaWVkLHMudDoxOHxwLnY6b2ZmLHMudDo2fHMuZTpsfHAudjpvbnxwLmw6LTI1fHAuczotMTAwLHMudDo2fHMuZTpnfHAuaDojZmZmZjAwfHAubDotMjV8cC5zOi05Nw!4e0&amp;key=AIzaSyBBxIKN4mTgYgTOXzxNSe67kqHr2vdDzR8&amp;token=99059"
+                                                                        style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="gm-style-pbc"
+                                                        style="z-index: 2; position: absolute; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px; left: 0px; top: 0px; opacity: 0;">
+                                                        <p class="gm-style-pbt"></p>
+                                                    </div>
+                                                    <div
+                                                        style="z-index: 3; position: absolute; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px; left: 0px; top: 0px; touch-action: pan-x pan-y;">
+                                                        <div
+                                                            style="z-index: 4; position: absolute; left: 50%; top: 50%; width: 100%; transform: translate(0px, 0px);">
+                                                            <div
+                                                                style="position: absolute; left: 0px; top: 0px; z-index: 104; width: 100%;">
+                                                                <div class="map-icon-label"
+                                                                    style="display: block; left: -27.8934px; top: -55.4989px;">
+                                                                    <span class="map-icon map-icon-postal-code"></span>
+                                                                </div>
+                                                            </div>
+                                                            <div
+                                                                style="position: absolute; left: 0px; top: 0px; z-index: 105; width: 100%;">
+                                                            </div>
+                                                            <div
+                                                                style="position: absolute; left: 0px; top: 0px; z-index: 106; width: 100%;">
+                                                                <div title=""
+                                                                    style="width: 44px; height: 48px; overflow: hidden; position: absolute; opacity: 0; cursor: pointer; touch-action: none; left: -22px; top: -48px; z-index: 0;">
+                                                                    <img alt=""
+                                                                        src="https://maps.gstatic.com/mapfiles/transparent.png"
+                                                                        draggable="false"
+                                                                        style="position: absolute; left: 0px; top: 0px; width: 44px; height: 48px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;">
+                                                                </div>
+                                                            </div>
+                                                            <div
+                                                                style="position: absolute; left: 0px; top: 0px; z-index: 107; width: 100%;">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div><iframe aria-hidden="true" frameborder="0"
+                                                    style="z-index: -1; position: absolute; width: 100%; height: 100%; top: 0px; left: 0px; border: none;"></iframe>
+                                                <div
+                                                    style="margin-left: 5px; margin-right: 5px; z-index: 1000000; position: absolute; left: 0px; bottom: 0px;">
+                                                    <a target="_blank" rel="noopener"
+                                                        href="https://maps.google.com/maps?ll=50.84592,4.36686&amp;z=14&amp;t=m&amp;hl=vi-VN&amp;gl=US&amp;mapclient=apiv3"
+                                                        title="Mở khu vực này trong Google Maps (mở cửa sổ mới)"
+                                                        style="position: static; overflow: visible; float: none; display: inline;">
+                                                        <div style="width: 66px; height: 26px; cursor: pointer;"><img
+                                                                alt=""
+                                                                src="https://maps.gstatic.com/mapfiles/api-3/images/google_white5.png"
+                                                                draggable="false"
+                                                                style="position: absolute; left: 0px; top: 0px; width: 66px; height: 26px; user-select: none; border: 0px; padding: 0px; margin: 0px;">
+                                                        </div>
+                                                    </a></div>
+                                                <div
+                                                    style="background-color: white; padding: 15px 21px; border: 1px solid rgb(171, 171, 171); font-family: Roboto, Arial, sans-serif; color: rgb(34, 34, 34); box-sizing: border-box; box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 16px; z-index: 10000002; display: none; width: 300px; height: 180px; position: absolute; left: 78px; top: 43px;">
+                                                    <div
+                                                        style="padding: 0px 0px 10px; font-size: 16px; box-sizing: border-box;">
+                                                        Dữ liệu Bản đồ</div>
+                                                    <div style="font-size: 13px;">Dữ liệu bản đồ ©2020 Google</div>
+                                                    <button draggable="false" title="Đóng" aria-label="Đóng"
+                                                        type="button" class="gm-ui-hover-effect"
+                                                        style="background: none; display: block; border: 0px; margin: 0px; padding: 0px; position: absolute; cursor: pointer; user-select: none; top: 0px; right: 0px; width: 37px; height: 37px;"><img
+                                                            src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224px%22%20height%3D%2224px%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22%23000000%22%3E%0A%20%20%20%20%3Cpath%20d%3D%22M19%206.41L17.59%205%2012%2010.59%206.41%205%205%206.41%2010.59%2012%205%2017.59%206.41%2019%2012%2013.41%2017.59%2019%2019%2017.59%2013.41%2012z%22%2F%3E%0A%20%20%20%20%3Cpath%20d%3D%22M0%200h24v24H0z%22%20fill%3D%22none%22%2F%3E%0A%3C%2Fsvg%3E%0A"
+                                                            style="pointer-events: none; display: block; width: 13px; height: 13px; margin: 12px;"></button>
+                                                </div>
+                                                <div class="gmnoprint"
+                                                    style="z-index: 1000001; position: absolute; right: 215px; bottom: 0px; width: 143px;">
+                                                    <div draggable="false" class="gm-style-cc"
+                                                        style="user-select: none; height: 14px; line-height: 14px;">
+                                                        <div
+                                                            style="opacity: 0.7; width: 100%; height: 100%; position: absolute;">
+                                                            <div style="width: 1px;"></div>
+                                                            <div
+                                                                style="background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;">
+                                                            </div>
+                                                        </div>
+                                                        <div
+                                                            style="position: relative; padding-right: 6px; padding-left: 6px; box-sizing: border-box; font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(68, 68, 68); white-space: nowrap; direction: ltr; text-align: right; vertical-align: middle; display: inline-block;">
+                                                            <a
+                                                                style="text-decoration: none; cursor: pointer; display: none;">Dữ
+                                                                liệu Bản đồ</a><span>Dữ liệu bản đồ ©2020 Google</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="gmnoscreen"
+                                                    style="position: absolute; right: 0px; bottom: 0px;">
+                                                    <div
+                                                        style="font-family: Roboto, Arial, sans-serif; font-size: 11px; color: rgb(68, 68, 68); direction: ltr; text-align: right; background-color: rgb(245, 245, 245);">
+                                                        Dữ liệu bản đồ ©2020 Google</div>
+                                                </div>
+                                                <div class="gmnoprint gm-style-cc" draggable="false"
+                                                    style="z-index: 1000001; user-select: none; height: 14px; line-height: 14px; position: absolute; right: 115px; bottom: 0px;">
+                                                    <div
+                                                        style="opacity: 0.7; width: 100%; height: 100%; position: absolute;">
+                                                        <div style="width: 1px;"></div>
+                                                        <div
+                                                            style="background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;">
+                                                        </div>
+                                                    </div>
+                                                    <div
+                                                        style="position: relative; padding-right: 6px; padding-left: 6px; box-sizing: border-box; font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(68, 68, 68); white-space: nowrap; direction: ltr; text-align: right; vertical-align: middle; display: inline-block;">
+                                                        <a href="https://www.google.com/intl/vi-VN_US/help/terms_maps.html"
+                                                            target="_blank" rel="noopener"
+                                                            style="text-decoration: none; cursor: pointer; color: rgb(68, 68, 68);">Điều
+                                                            khoản sử dụng</a></div>
+                                                </div><button draggable="false"
+                                                    title="Chuyển đổi chế độ xem toàn màn hình"
+                                                    aria-label="Chuyển đổi chế độ xem toàn màn hình" type="button"
+                                                    class="gm-control-active gm-fullscreen-control"
+                                                    style="background: none rgb(255, 255, 255); border: 0px; margin: 10px; padding: 0px; position: absolute; cursor: pointer; user-select: none; border-radius: 2px; height: 40px; width: 40px; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; overflow: hidden; top: 0px; right: 0px;"><img
+                                                        src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218%22%20height%3D%2218%22%20viewBox%3D%220%20018%2018%22%3E%0A%20%20%3Cpath%20fill%3D%22%23666%22%20d%3D%22M0%2C0v2v4h2V2h4V0H2H0z%20M16%2C0h-4v2h4v4h2V2V0H16z%20M16%2C16h-4v2h4h2v-2v-4h-2V16z%20M2%2C12H0v4v2h2h4v-2H2V12z%22%2F%3E%0A%3C%2Fsvg%3E%0A"
+                                                        style="height: 18px; width: 18px;"><img
+                                                        src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218%22%20height%3D%2218%22%20viewBox%3D%220%200%2018%2018%22%3E%0A%20%20%3Cpath%20fill%3D%22%23333%22%20d%3D%22M0%2C0v2v4h2V2h4V0H2H0z%20M16%2C0h-4v2h4v4h2V2V0H16z%20M16%2C16h-4v2h4h2v-2v-4h-2V16z%20M2%2C12H0v4v2h2h4v-2H2V12z%22%2F%3E%0A%3C%2Fsvg%3E%0A"
+                                                        style="height: 18px; width: 18px;"><img
+                                                        src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218%22%20height%3D%2218%22%20viewBox%3D%220%200%2018%2018%22%3E%0A%20%20%3Cpath%20fill%3D%22%23111%22%20d%3D%22M0%2C0v2v4h2V2h4V0H2H0z%20M16%2C0h-4v2h4v4h2V2V0H16z%20M16%2C16h-4v2h4h2v-2v-4h-2V16z%20M2%2C12H0v4v2h2h4v-2H2V12z%22%2F%3E%0A%3C%2Fsvg%3E%0A"
+                                                        style="height: 18px; width: 18px;"></button>
+                                                <div draggable="false" class="gm-style-cc"
+                                                    style="user-select: none; height: 14px; line-height: 14px; position: absolute; right: 0px; bottom: 0px;">
+                                                    <div
+                                                        style="opacity: 0.7; width: 100%; height: 100%; position: absolute;">
+                                                        <div style="width: 1px;"></div>
+                                                        <div
+                                                            style="background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;">
+                                                        </div>
+                                                    </div>
+                                                    <div
+                                                        style="position: relative; padding-right: 6px; padding-left: 6px; box-sizing: border-box; font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(68, 68, 68); white-space: nowrap; direction: ltr; text-align: right; vertical-align: middle; display: inline-block;">
+                                                        <a target="_blank" rel="noopener"
+                                                            title="Báo cáo lỗi trong bản đồ đường hoặc hình ảnh đến Google"
+                                                            href="https://www.google.com/maps/@50.84592,4.36686,14z/data=!10m1!1e1!12b1?source=apiv3&amp;rapsrc=apiv3"
+                                                            style="font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(68, 68, 68); text-decoration: none; position: relative;">Báo
+                                                            cáo một lỗi bản đồ</a></div>
+                                                </div>
+                                                <div class="gmnoprint gm-bundled-control gm-bundled-control-on-bottom"
+                                                    draggable="false" controlwidth="40" controlheight="153"
+                                                    style="margin: 10px; user-select: none; position: absolute; bottom: 167px; right: 40px;">
+                                                    <div class="gmnoprint" controlwidth="40" controlheight="81"
+                                                        style="position: absolute; left: 0px; top: 72px;">
+                                                        <div draggable="false"
+                                                            style="user-select: none; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; border-radius: 2px; cursor: pointer; background-color: rgb(255, 255, 255); width: 40px; height: 81px;">
+                                                            <button draggable="false" title="Phóng to"
+                                                                aria-label="Phóng to" type="button"
+                                                                class="gm-control-active"
+                                                                style="background: none; display: block; border: 0px; margin: 0px; padding: 0px; position: relative; cursor: pointer; user-select: none; overflow: hidden; width: 40px; height: 40px; top: 0px; left: 0px;"><img
+                                                                    src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218%22%20height%3D%2218%22%20viewBox%3D%220%200%2018%2018%22%3E%0A%20%20%3Cpolygon%20fill%3D%22%23666%22%20points%3D%2218%2C7%2011%2C7%2011%2C0%207%2C0%207%2C7%200%2C7%200%2C11%207%2C11%207%2C18%2011%2C18%2011%2C11%2018%2C11%22%2F%3E%0A%3C%2Fsvg%3E%0A"
+                                                                    style="height: 18px; width: 18px;"><img
+                                                                    src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218%22%20height%3D%2218%22%20viewBox%3D%220%200%2018%2018%22%3E%0A%20%20%3Cpolygon%20fill%3D%22%23333%22%20points%3D%2218%2C7%2011%2C7%2011%2C0%207%2C0%207%2C7%200%2C7%200%2C11%207%2C11%207%2C18%2011%2C18%2011%2C11%2018%2C11%22%2F%3E%0A%3C%2Fsvg%3E%0A"
+                                                                    style="height: 18px; width: 18px;"><img
+                                                                    src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218%22%20height%3D%2218%22%20viewBox%3D%220%200%2018%2018%22%3E%0A%20%20%3Cpolygon%20fill%3D%22%23111%22%20points%3D%2218%2C7%2011%2C7%2011%2C0%207%2C0%207%2C7%200%2C7%200%2C11%207%2C11%207%2C18%2011%2C18%2011%2C11%2018%2C11%22%2F%3E%0A%3C%2Fsvg%3E%0A"
+                                                                    style="height: 18px; width: 18px;"></button>
+                                                            <div
+                                                                style="position: relative; overflow: hidden; width: 30px; height: 1px; margin: 0px 5px; background-color: rgb(230, 230, 230); top: 0px;">
+                                                            </div><button draggable="false" title="Thu nhỏ"
+                                                                aria-label="Thu nhỏ" type="button"
+                                                                class="gm-control-active"
+                                                                style="background: none; display: block; border: 0px; margin: 0px; padding: 0px; position: relative; cursor: pointer; user-select: none; overflow: hidden; width: 40px; height: 40px; top: 0px; left: 0px;"><img
+                                                                    src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218%22%20height%3D%2218%22%20viewBox%3D%220%200%2018%2018%22%3E%0A%20%20%3Cpath%20fill%3D%22%23666%22%20d%3D%22M0%2C7h18v4H0V7z%22%2F%3E%0A%3C%2Fsvg%3E%0A"
+                                                                    style="height: 18px; width: 18px;"><img
+                                                                    src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218%22%20height%3D%2218%22%20viewBox%3D%220%200%2018%2018%22%3E%0A%20%20%3Cpath%20fill%3D%22%23333%22%20d%3D%22M0%2C7h18v4H0V7z%22%2F%3E%0A%3C%2Fsvg%3E%0A"
+                                                                    style="height: 18px; width: 18px;"><img
+                                                                    src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218%22%20height%3D%2218%22%20viewBox%3D%220%200%2018%2018%22%3E%0A%20%20%3Cpath%20fill%3D%22%23111%22%20d%3D%22M0%2C7h18v4H0V7z%22%2F%3E%0A%3C%2Fsvg%3E%0A"
+                                                                    style="height: 18px; width: 18px;"></button>
+                                                        </div>
+                                                    </div>
+                                                    <div class="gm-svpc" dir="ltr"
+                                                        title="Kéo Người hình mắc áo vào bản đồ để mở Chế độ xem phố"
+                                                        controlwidth="40" controlheight="40"
+                                                        style="background-color: rgb(255, 255, 255); box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; border-radius: 2px; width: 40px; height: 40px; cursor: url(&quot;https://maps.gstatic.com/mapfiles/openhand_8_8.cur&quot;), default; touch-action: none; position: absolute; left: 0px; top: 0px;">
+                                                        <div style="position: absolute; left: 50%; top: 50%;"></div>
+                                                        <div style="position: absolute; left: 50%; top: 50%;"><img
+                                                                src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2223%22%20height%3D%2238%22%20viewBox%3D%220%200%2023%2038%22%3E%0A%3Cpath%20d%3D%22M16.6%2C38.1h-5.5l-0.2-2.9-0.2%2C2.9h-5.5L5%2C25.3l-0.8%2C2a1.53%2C1.53%2C0%2C0%2C1-1.9.9l-1.2-.4a1.58%2C1.58%2C0%2C0%2C1-1-1.9v-0.1c0.3-.9%2C3.1-11.2%2C3.1-11.2a2.66%2C2.66%2C0%2C0%2C1%2C2.3-2l0.6-.5a6.93%2C6.93%2C0%2C0%2C1%2C4.7-12%2C6.8%2C6.8%2C0%2C0%2C1%2C4.9%2C2%2C7%2C7%2C0%2C0%2C1%2C2%2C4.9%2C6.65%2C6.65%2C0%2C0%2C1-2.2%2C5l0.7%2C0.5a2.78%2C2.78%2C0%2C0%2C1%2C2.4%2C2s2.9%2C11.2%2C2.9%2C11.3a1.53%2C1.53%2C0%2C0%2C1-.9%2C1.9l-1.3.4a1.63%2C1.63%2C0%2C0%2C1-1.9-.9l-0.7-1.8-0.1%2C12.7h0Zm-3.6-2h1.7L14.9%2C20.3l1.9-.3%2C2.4%2C6.3%2C0.3-.1c-0.2-.8-0.8-3.2-2.8-10.9a0.63%2C0.63%2C0%2C0%2C0-.6-0.5h-0.6l-1.1-.9h-1.9l-0.3-2a4.83%2C4.83%2C0%2C0%2C0%2C3.5-4.7A4.78%2C4.78%200%200%2C0%2011%202.3H10.8a4.9%2C4.9%2C0%2C0%2C0-1.4%2C9.6l-0.3%2C2h-1.9l-1%2C.9h-0.6a0.74%2C0.74%2C0%2C0%2C0-.6.5c-2%2C7.5-2.7%2C10-3%2C10.9l0.3%2C0.1%2C2.5-6.3%2C1.9%2C0.3%2C0.2%2C15.8h1.6l0.6-8.4a1.52%2C1.52%2C0%2C0%2C1%2C1.5-1.4%2C1.5%2C1.5%2C0%2C0%2C1%2C1.5%2C1.4l0.9%2C8.4h0Zm-10.9-9.6h0Zm17.5-.1h0Z%22%20style%3D%22fill%3A%23333%3Bopacity%3A0.7%3Bisolation%3Aisolate%22%2F%3E%0A%3Cpath%20d%3D%22M5.9%2C13.6l1.1-.9h7.8l1.2%2C0.9%22%20style%3D%22fill%3A%23ce592c%22%2F%3E%0A%3Cellipse%20cx%3D%2210.9%22%20cy%3D%2213.1%22%20rx%3D%222.7%22%20ry%3D%220.3%22%20style%3D%22fill%3A%23ce592c%3Bopacity%3A0.5%3Bisolation%3Aisolate%22%2F%3E%0A%3Cpath%20d%3D%22M20.6%2C26.1l-2.9-11.3a1.71%2C1.71%2C0%2C0%2C0-1.6-1.2H5.7a1.69%2C1.69%2C0%2C0%2C0-1.5%2C1.3l-3.1%2C11.3a0.61%2C0.61%2C0%2C0%2C0%2C.3.7l1.1%2C0.4a0.61%2C0.61%2C0%2C0%2C0%2C.7-0.3l2.7-6.7%2C0.2%2C16.8h3.6l0.6-9.3a0.47%2C0.47%2C0%2C0%2C1%2C.44-0.5h0.06c0.4%2C0%2C.4.2%2C0.5%2C0.5l0.6%2C9.3h3.6L15.7%2C20.3l2.5%2C6.6a0.52%2C0.52%2C0%2C0%2C0%2C.66.31h0l1.2-.4a0.57%2C0.57%2C0%2C0%2C0%2C.5-0.7h0Z%22%20style%3D%22fill%3A%23fdbf2d%22%2F%3E%0A%3Cpath%20d%3D%22M7%2C13.6l3.9%2C6.7%2C3.9-6.7%22%20style%3D%22fill%3A%23cf572e%3Bopacity%3A0.6%3Bisolation%3Aisolate%22%2F%3E%0A%3Ccircle%20cx%3D%2210.9%22%20cy%3D%227%22%20r%3D%225.9%22%20style%3D%22fill%3A%23fdbf2d%22%2F%3E%0A%3C%2Fsvg%3E%0A"
+                                                                aria-label="Kiểm soát người hình mắc áo trong chế độ xem phố"
+                                                                style="height: 30px; width: 30px; position: absolute; transform: translate(-50%, -50%); pointer-events: none;"><img
+                                                                src="data:image/svg+xml,%3Csvg%20width%3D%2224px%22%20height%3D%2238px%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20viewBox%3D%220%200%2024%2038%22%3E%0A%3Cpath%20d%3D%22M22%2C26.6l-2.9-11.3a2.78%2C2.78%2C0%2C0%2C0-2.4-2l-0.7-.5a6.82%2C6.82%2C0%2C0%2C0%2C2.2-5%2C6.9%2C6.9%2C0%2C0%2C0-13.8%2C0%2C7%2C7%2C0%2C0%2C0%2C2.2%2C5.1l-0.6.5a2.55%2C2.55%2C0%2C0%2C0-2.3%2C2s-3%2C11.1-3%2C11.2v0.1a1.58%2C1.58%2C0%2C0%2C0%2C1%2C1.9l1.2%2C0.4a1.63%2C1.63%2C0%2C0%2C0%2C1.9-.9l0.8-2%2C0.2%2C12.8h11.3l0.2-12.6%2C0.7%2C1.8a1.54%2C1.54%2C0%2C0%2C0%2C1.5%2C1%2C1.09%2C1.09%2C0%2C0%2C0%2C.5-0.1l1.3-.4a1.85%2C1.85%2C0%2C0%2C0%2C.7-2h0Zm-1.2.9-1.2.4a0.61%2C0.61%2C0%2C0%2C1-.7-0.3l-2.5-6.6-0.2%2C16.8h-9.4L6.6%2C21l-2.7%2C6.7a0.52%2C0.52%2C0%2C0%2C1-.66.31h0l-1.1-.4a0.52%2C0.52%2C0%2C0%2C1-.31-0.66v0l3.1-11.3a1.69%2C1.69%2C0%2C0%2C1%2C1.5-1.3h0.2l1-.9h2.3a5.9%2C5.9%2C0%2C1%2C1%2C3.2%2C0h2.3l1.1%2C0.9h0.2a1.71%2C1.71%2C0%2C0%2C1%2C1.6%2C1.2l2.9%2C11.3a0.84%2C0.84%2C0%2C0%2C1-.4.7h0Z%22%20style%3D%22fill%3A%23333%3Bfill-opacity%3A0.2%22%2F%3E%22%0A%3C%2Fsvg%3E%0A%0A"
+                                                                aria-label="Người hình mắc áo ở đầu Bản đồ"
+                                                                style="display: none; height: 30px; width: 30px; position: absolute; transform: translate(-50%, -50%); pointer-events: none;"><img
+                                                                src="data:image/svg+xml,%3Csvg%20width%3D%2240px%22%20height%3D%2250px%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20viewBox%3D%220%200%2040%2050%22%3E%0A%3Cpath%20d%3D%22M34.00%2C-30.40l-2.9-11.3a2.78%2C2.78%2C0%2C0%2C0-2.4-2l-0.7-.5a6.82%2C6.82%2C0%2C0%2C0%2C2.2-5%2C6.9%2C6.9%2C0%2C0%2C0-13.8%2C0%2C7%2C7%2C0%2C0%2C0%2C2.2%2C5.1l-0.6.5a2.55%2C2.55%2C0%2C0%2C0-2.3%2C2s-3%2C11.1-3%2C11.2v0.1a1.58%2C1.58%2C0%2C0%2C0%2C1%2C1.9l1.2%2C0.4a1.63%2C1.63%2C0%2C0%2C0%2C1.9-.9l0.8-2%2C0.2%2C12.8h11.3l0.2-12.6%2C0.7%2C1.8a1.54%2C1.54%2C0%2C0%2C0%2C1.5%2C1%2C1.09%2C1.09%2C0%2C0%2C0%2C.5-0.1l1.3-.4a1.85%2C1.85%2C0%2C0%2C0%2C.7-2h0Zm-1.2.9-1.2.4a0.61%2C0.61%2C0%2C0%2C1-.7-0.3l-2.5-6.6-0.2%2C16.8h-9.4L18.60%2C-36.00l-2.7%2C6.7a0.52%2C0.52%2C0%2C0%2C1-.66.31h0l-1.1-.4a0.52%2C0.52%2C0%2C0%2C1-.31-0.66v0l3.1-11.3a1.69%2C1.69%2C0%2C0%2C1%2C1.5-1.3h0.2l1-.9h2.3a5.9%2C5.9%2C0%2C1%2C1%2C3.2%2C0h2.3l1.1%2C0.9h0.2a1.71%2C1.71%2C0%2C0%2C1%2C1.6%2C1.2l2.9%2C11.3a0.84%2C0.84%2C0%2C0%2C1-.4.7h0Zm1.2%2C59.1-2.9-11.3a2.78%2C2.78%2C0%2C0%2C0-2.4-2l-0.7-.5a6.82%2C6.82%2C0%2C0%2C0%2C2.2-5%2C6.9%2C6.9%2C0%2C0%2C0-13.8%2C0%2C7%2C7%2C0%2C0%2C0%2C2.2%2C5.1l-0.6.5a2.55%2C2.55%2C0%2C0%2C0-2.3%2C2s-3%2C11.1-3%2C11.2v0.1a1.58%2C1.58%2C0%2C0%2C0%2C1%2C1.9l1.2%2C0.4a1.63%2C1.63%2C0%2C0%2C0%2C1.9-.9l0.8-2%2C0.2%2C12.8h11.3l0.2-12.6%2C0.7%2C1.8a1.54%2C1.54%2C0%2C0%2C0%2C1.5%2C1%2C1.09%2C1.09%2C0%2C0%2C0%2C.5-0.1l1.3-.4a1.85%2C1.85%2C0%2C0%2C0%2C.7-2h0Zm-1.2.9-1.2.4a0.61%2C0.61%2C0%2C0%2C1-.7-0.3l-2.5-6.6-0.2%2C16.8h-9.4L18.60%2C24.00l-2.7%2C6.7a0.52%2C0.52%2C0%2C0%2C1-.66.31h0l-1.1-.4a0.52%2C0.52%2C0%2C0%2C1-.31-0.66v0l3.1-11.3a1.69%2C1.69%2C0%2C0%2C1%2C1.5-1.3h0.2l1-.9h2.3a5.9%2C5.9%2C0%2C1%2C1%2C3.2%2C0h2.3l1.1%2C0.9h0.2a1.71%2C1.71%2C0%2C0%2C1%2C1.6%2C1.2l2.9%2C11.3a0.84%2C0.84%2C0%2C0%2C1-.4.7h0Z%22%20style%3D%22fill%3A%23333%3Bfill-opacity%3A0.2%22%3E%3C%2Fpath%3E%0A%3Cpath%20d%3D%22M15.40%2C38.80h-4a1.64%2C1.64%2C0%2C0%2C1-1.4-1.1l-3.1-8a0.9%2C0.9%2C0%2C0%2C1-.5.1l-1.4.1a1.62%2C1.62%2C0%2C0%2C1-1.6-1.4l-1.1-13.1%2C1.6-1.3a6.87%2C6.87%2C0%2C0%2C1-3-4.6A7.14%2C7.14%200%200%2C1%202%204a7.6%2C7.6%2C0%2C0%2C1%2C4.7-3.1%2C7.14%2C7.14%2C0%2C0%2C1%2C5.5%2C1.1%2C7.28%2C7.28%2C0%2C0%2C1%2C2.3%2C9.6l2.1-.1%2C0.1%2C1c0%2C0.2.1%2C0.5%2C0.1%2C0.8a2.41%2C2.41%2C0%2C0%2C1%2C1%2C1s1.9%2C3.2%2C2.8%2C4.9c0.7%2C1.2%2C2.1%2C4.2%2C2.8%2C5.9a2.1%2C2.1%2C0%2C0%2C1-.8%2C2.6l-0.6.4a1.63%2C1.63%2C0%2C0%2C1-1.5.2l-0.6-.3a8.93%2C8.93%2C0%2C0%2C0%2C.5%2C1.3%2C7.91%2C7.91%2C0%2C0%2C0%2C1.8%2C2.6l0.6%2C0.3v4.6l-4.5-.1a7.32%2C7.32%2C0%2C0%2C1-2.5-1.5l-0.4%2C3.6h0Zm-10-19.2%2C3.5%2C9.8%2C2.9%2C7.5h1.6V35l-1.9-9.4%2C3.1%2C5.4a8.24%2C8.24%2C0%2C0%2C0%2C3.8%2C3.8h2.1v-1.4a14%2C14%2C0%2C0%2C1-2.2-3.1%2C44.55%2C44.55%2C0%2C0%2C1-2.2-8l-1.3-6.3%2C3.2%2C5.6c0.6%2C1.1%2C2.1%2C3.6%2C2.8%2C4.9l0.6-.4c-0.8-1.6-2.1-4.6-2.8-5.8-0.9-1.7-2.8-4.9-2.8-4.9a0.54%2C0.54%2C0%2C0%2C0-.4-0.3l-0.7-.1-0.1-.7a4.33%2C4.33%2C0%2C0%2C0-.1-0.5l-5.3.3%2C2.2-1.9a4.3%2C4.3%2C0%2C0%2C0%2C.9-1%2C5.17%2C5.17%2C0%2C0%2C0%2C.8-4%2C5.67%2C5.67%2C0%2C0%2C0-2.2-3.4%2C5.09%2C5.09%2C0%2C0%2C0-4-.8%2C5.67%2C5.67%2C0%2C0%2C0-3.4%2C2.2%2C5.17%2C5.17%2C0%2C0%2C0-.8%2C4%2C5.67%2C5.67%2C0%2C0%2C0%2C2.2%2C3.4%2C3.13%2C3.13%2C0%2C0%2C0%2C1%2C.5l1.6%2C0.6-3.2%2C2.6%2C1%2C11.5h0.4l-0.3-8.2h0Z%22%20style%3D%22fill%3A%23333%22%3E%3C%2Fpath%3E%0A%3Cpath%20d%3D%22M3.35%2C15.90l1.1%2C12.5a0.39%2C0.39%2C0%2C0%2C0%2C.36.42l0.14%2C0%2C1.4-.1a0.66%2C0.66%2C0%2C0%2C0%2C.5-0.4l-0.2-3.8-3.3-8.6h0Z%22%20style%3D%22fill%3A%23fdbf2d%22%3E%3C%2Fpath%3E%0A%3Cpath%20d%3D%22M5.20%2C28.80l1.1-.1a0.66%2C0.66%2C0%2C0%2C0%2C.5-0.4l-0.2-3.8-1.2-3.1Z%22%20style%3D%22fill%3A%23ce592b%3Bfill-opacity%3A0.25%22%3E%3C%2Fpath%3E%0A%3Cpath%20d%3D%22M21.40%2C35.70l-3.8-1.2-2.7-7.8L12.00%2C15.5l3.4-2.9c0.2%2C2.4%2C2.2%2C14.1%2C3.7%2C17.1%2C0%2C0%2C1.3%2C2.6%2C2.3%2C3.1v2.9m-8.4-8.1-2-.3%2C2.5%2C10.1%2C0.9%2C0.4v-2.9%22%20style%3D%22fill%3A%23e5892b%22%3E%3C%2Fpath%3E%0A%3Cpath%20d%3D%22M17.80%2C25.40c-0.4-1.5-.7-3.1-1.1-4.8-0.1-.4-0.1-0.7-0.2-1.1l-1.1-2-1.7-1.6s0.9%2C5%2C2.4%2C7.1a19.12%2C19.12%2C0%2C0%2C0%2C1.7%2C2.4h0Z%22%20style%3D%22fill%3A%23cf572e%3Bopacity%3A0.6%3Bisolation%3Aisolate%22%3E%3C%2Fpath%3E%0A%3Cpath%20d%3D%22M14.40%2C37.80h-3a0.43%2C0.43%2C0%2C0%2C1-.4-0.4l-3-7.8-1.7-4.8-3-9%2C8.9-.4s2.9%2C11.3%2C4.3%2C14.4c1.9%2C4.1%2C3.1%2C4.7%2C5%2C5.8h-3.2s-4.1-1.2-5.9-7.7a0.59%2C0.59%2C0%2C0%2C0-.6-0.4%2C0.62%2C0.62%2C0%2C0%2C0-.3.7s0.5%2C2.4.9%2C3.6a34.87%2C34.87%2C0%2C0%2C0%2C2%2C6h0Z%22%20style%3D%22fill%3A%23fdbf2d%22%3E%3C%2Fpath%3E%0A%3Cpath%20d%3D%22M15.40%2C12.70l-3.3%2C2.9-8.9.4%2C3.3-2.7%22%20style%3D%22fill%3A%23ce592b%22%3E%3C%2Fpath%3E%0A%3Cpath%20d%3D%22M9.10%2C21.10l1.4-6.2-5.9.5%22%20style%3D%22fill%3A%23cf572e%3Bopacity%3A0.6%3Bisolation%3Aisolate%22%3E%3C%2Fpath%3E%0A%3Cpath%20d%3D%22M12.00%2C13.5a4.75%2C4.75%2C0%2C0%2C1-2.6%2C1.1c-1.5.3-2.9%2C0.2-2.9%2C0s1.1-.6%2C2.7-1%22%20style%3D%22fill%3A%23bb3d19%22%3E%3C%2Fpath%3E%0A%3Ccircle%20cx%3D%227.92%22%20cy%3D%228.19%22%20r%3D%226.3%22%20style%3D%22fill%3A%23fdbf2d%22%3E%3C%2Fcircle%3E%0A%3Cpath%20d%3D%22M4.70%2C13.60a6.21%2C6.21%2C0%2C0%2C0%2C8.4-1.9v-0.1a8.89%2C8.89%2C0%2C0%2C1-8.4%2C2h0Z%22%20style%3D%22fill%3A%23ce592b%3Bfill-opacity%3A0.25%22%3E%3C%2Fpath%3E%0A%3Cpath%20d%3D%22M21.20%2C27.20l0.6-.4a1.09%2C1.09%2C0%2C0%2C0%2C.4-1.3c-0.7-1.5-2.1-4.6-2.8-5.8-0.9-1.7-2.8-4.9-2.8-4.9a1.6%2C1.6%2C0%2C0%2C0-2.17-.65l-0.23.15a1.68%2C1.68%2C0%2C0%2C0-.4%2C2.1s2.3%2C3.9%2C3.1%2C5.3c0.6%2C1%2C2.1%2C3.7%2C2.9%2C5.1a0.94%2C0.94%2C0%2C0%2C0%2C1.24.49l0.16-.09h0Z%22%20style%3D%22fill%3A%23fdbf2d%22%3E%3C%2Fpath%3E%0A%3Cpath%20d%3D%22M19.40%2C19.80c-0.9-1.7-2.8-4.9-2.8-4.9a1.6%2C1.6%2C0%2C0%2C0-2.17-.65l-0.23.15-0.3.3c1.1%2C1.5%2C2.9%2C3.8%2C3.9%2C5.4%2C1.1%2C1.8%2C2.9%2C5%2C3.8%2C6.7l0.1-.1a1.09%2C1.09%2C0%2C0%2C0%2C.4-1.3%2C57.67%2C57.67%2C0%2C0%2C0-2.7-5.6h0Z%22%20style%3D%22fill%3A%23ce592b%3Bfill-opacity%3A0.25%22%3E%3C%2Fpath%3E%0A%3C%2Fsvg%3E%0A"
+                                                                aria-label="Kiểm soát người hình mắc áo trong chế độ xem phố"
+                                                                style="display: none; height: 40px; width: 40px; position: absolute; transform: translate(-60%, -45%); pointer-events: none;">
+                                                        </div>
+                                                    </div>
+                                                    <div class="gmnoprint" controlwidth="40" controlheight="40"
+                                                        style="display: none; position: absolute;">
+                                                        <div style="width: 40px; height: 40px;"><button
+                                                                draggable="false" title="Xoay bản đồ 90 độ"
+                                                                aria-label="Xoay bản đồ 90 độ" type="button"
+                                                                class="gm-control-active"
+                                                                style="background: none rgb(255, 255, 255); display: none; border: 0px; margin: 0px 0px 32px; padding: 0px; position: relative; cursor: pointer; user-select: none; width: 40px; height: 40px; top: 0px; left: 0px; overflow: hidden; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; border-radius: 2px;"><img
+                                                                    src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2222%22%20viewBox%3D%220%200%2024%2022%22%3E%0A%20%20%3Cpath%20fill%3D%22%23666%22%20fill-rule%3D%22evenodd%22%20d%3D%22M20%2010c0-5.52-4.48-10-10-10s-10%204.48-10%2010v5h5v-5c0-2.76%202.24-5%205-5s5%202.24%205%205v5h-4l6.5%207%206.5-7h-4v-5z%22%20clip-rule%3D%22evenodd%22%2F%3E%0A%3C%2Fsvg%3E%0A"
+                                                                    style="height: 18px; width: 18px;"><img
+                                                                    src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2222%22%20viewBox%3D%220%200%2024%2022%22%3E%0A%20%20%3Cpath%20fill%3D%22%23333%22%20fill-rule%3D%22evenodd%22%20d%3D%22M20%2010c0-5.52-4.48-10-10-10s-10%204.48-10%2010v5h5v-5c0-2.76%202.24-5%205-5s5%202.24%205%205v5h-4l6.5%207%206.5-7h-4v-5z%22%20clip-rule%3D%22evenodd%22%2F%3E%0A%3C%2Fsvg%3E%0A"
+                                                                    style="height: 18px; width: 18px;"><img
+                                                                    src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2222%22%20viewBox%3D%220%200%2024%2022%22%3E%0A%20%20%3Cpath%20fill%3D%22%23111%22%20fill-rule%3D%22evenodd%22%20d%3D%22M20%2010c0-5.52-4.48-10-10-10s-10%204.48-10%2010v5h5v-5c0-2.76%202.24-5%205-5s5%202.24%205%205v5h-4l6.5%207%206.5-7h-4v-5z%22%20clip-rule%3D%22evenodd%22%2F%3E%0A%3C%2Fsvg%3E%0A"
+                                                                    style="height: 18px; width: 18px;"></button><button
+                                                                draggable="false" title="Nghiêng bản đồ"
+                                                                aria-label="Nghiêng bản đồ" type="button"
+                                                                class="gm-tilt gm-control-active"
+                                                                style="background: none rgb(255, 255, 255); display: block; border: 0px; margin: 0px; padding: 0px; position: relative; cursor: pointer; user-select: none; width: 40px; height: 40px; top: 0px; left: 0px; overflow: hidden; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; border-radius: 2px;"><img
+                                                                    src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218px%22%20height%3D%2216px%22%20viewBox%3D%220%200%2018%2016%22%3E%0A%20%20%3Cpath%20fill%3D%22%23666%22%20d%3D%22M0%2C16h8V9H0V16z%20M10%2C16h8V9h-8V16z%20M0%2C7h8V0H0V7z%20M10%2C0v7h8V0H10z%22%2F%3E%0A%3C%2Fsvg%3E%0A"
+                                                                    style="width: 18px;"><img
+                                                                    src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218px%22%20height%3D%2216px%22%20viewBox%3D%220%200%2018%2016%22%3E%0A%20%20%3Cpath%20fill%3D%22%23333%22%20d%3D%22M0%2C16h8V9H0V16z%20M10%2C16h8V9h-8V16z%20M0%2C7h8V0H0V7z%20M10%2C0v7h8V0H10z%22%2F%3E%0A%3C%2Fsvg%3E%0A"
+                                                                    style="width: 18px;"><img
+                                                                    src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218px%22%20height%3D%2216px%22%20viewBox%3D%220%200%2018%2016%22%3E%0A%20%20%3Cpath%20fill%3D%22%23111%22%20d%3D%22M0%2C16h8V9H0V16z%20M10%2C16h8V9h-8V16z%20M0%2C7h8V0H0V7z%20M10%2C0v7h8V0H10z%22%2F%3E%0A%3C%2Fsvg%3E%0A"
+                                                                    style="width: 18px;"></button></div>
+                                                    </div>
+                                                </div>
+                                                <div class="gmnoprint"
+                                                    style="margin: 10px; z-index: 0; position: absolute; cursor: pointer; left: 0px; top: 0px;">
+                                                    <div class="gm-style-mtc" style="float: left; position: relative;">
+                                                        <div role="button" tabindex="0" title="Hiển thị bản đồ phố"
+                                                            aria-label="Hiển thị bản đồ phố" aria-pressed="true"
+                                                            draggable="false"
+                                                            style="direction: ltr; overflow: hidden; text-align: center; height: 40px; display: table-cell; vertical-align: middle; position: relative; color: rgb(0, 0, 0); font-family: Roboto, Arial, sans-serif; user-select: none; font-size: 18px; background-color: rgb(255, 255, 255); padding: 0px 17px; border-bottom-left-radius: 2px; border-top-left-radius: 2px; background-clip: padding-box; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; min-width: 57px; font-weight: 500;">
+                                                            Bản đồ</div>
+                                                        <div
+                                                            style="background-color: white; z-index: -1; padding: 2px; border-bottom-left-radius: 2px; border-bottom-right-radius: 2px; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; position: absolute; left: 0px; top: 40px; text-align: left; display: none;">
+                                                            <div draggable="false"
+                                                                title="Hiển thị bản đồ phố với địa hình"
+                                                                style="color: black; font-family: Roboto, Arial, sans-serif; user-select: none; font-size: 18px; background-color: rgb(255, 255, 255); padding: 5px 8px 5px 5px; direction: ltr; text-align: left; white-space: nowrap;">
+                                                                <span role="checkbox"
+                                                                    style="vertical-align: middle;"><img
+                                                                        src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224px%22%20height%3D%2224px%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22%23000000%22%3E%0A%20%20%20%20%3Cpath%20d%3D%22M0%200h24v24H0z%22%20fill%3D%22none%22%2F%3E%0A%20%20%20%20%3Cpath%20d%3D%22M19%203H5c-1.11%200-2%20.9-2%202v14c0%201.1.89%202%202%202h14c1.11%200%202-.9%202-2V5c0-1.1-.89-2-2-2zm-9%2014l-5-5%201.41-1.41L10%2014.17l7.59-7.59L19%208l-9%209z%22%2F%3E%0A%3C%2Fsvg%3E%0A"
+                                                                        style="height: 1em; width: 1em; transform: translateY(0.15em); display: none;"><img
+                                                                        src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224px%22%20height%3D%2224px%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22%23000000%22%3E%0A%20%20%20%20%3Cpath%20d%3D%22M19%205v14H5V5h14m0-2H5c-1.1%200-2%20.9-2%202v14c0%201.1.9%202%202%202h14c1.1%200%202-.9%202-2V5c0-1.1-.9-2-2-2z%22%2F%3E%0A%20%20%20%20%3Cpath%20d%3D%22M0%200h24v24H0z%22%20fill%3D%22none%22%2F%3E%0A%3C%2Fsvg%3E%0A"
+                                                                        style="height: 1em; width: 1em; transform: translateY(0.15em);"></span><label
+                                                                    style="vertical-align: middle; cursor: pointer;">Địa
+                                                                    hình</label></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="gm-style-mtc" style="float: left; position: relative;">
+                                                        <div role="button" tabindex="0"
+                                                            title="Hiển thị hình ảnh qua vệ tinh"
+                                                            aria-label="Hiển thị hình ảnh qua vệ tinh"
+                                                            aria-pressed="false" draggable="false"
+                                                            style="direction: ltr; overflow: hidden; text-align: center; height: 40px; display: table-cell; vertical-align: middle; position: relative; color: rgb(86, 86, 86); font-family: Roboto, Arial, sans-serif; user-select: none; font-size: 18px; background-color: rgb(255, 255, 255); padding: 0px 17px; border-bottom-right-radius: 2px; border-top-right-radius: 2px; background-clip: padding-box; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; min-width: 57px; border-left: 0px;">
+                                                            Vệ tinh</div>
+                                                        <div
+                                                            style="background-color: white; z-index: -1; padding: 2px; border-bottom-left-radius: 2px; border-bottom-right-radius: 2px; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; position: absolute; right: 0px; top: 40px; text-align: left; display: none;">
+                                                            <div draggable="false" title="Hiển thị hình ảnh có tên phố"
+                                                                style="color: black; font-family: Roboto, Arial, sans-serif; user-select: none; font-size: 18px; background-color: rgb(255, 255, 255); padding: 5px 8px 5px 5px; direction: ltr; text-align: left; white-space: nowrap;">
+                                                                <span role="checkbox"
+                                                                    style="vertical-align: middle;"><img
+                                                                        src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224px%22%20height%3D%2224px%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22%23000000%22%3E%0A%20%20%20%20%3Cpath%20d%3D%22M0%200h24v24H0z%22%20fill%3D%22none%22%2F%3E%0A%20%20%20%20%3Cpath%20d%3D%22M19%203H5c-1.11%200-2%20.9-2%202v14c0%201.1.89%202%202%202h14c1.11%200%202-.9%202-2V5c0-1.1-.89-2-2-2zm-9%2014l-5-5%201.41-1.41L10%2014.17l7.59-7.59L19%208l-9%209z%22%2F%3E%0A%3C%2Fsvg%3E%0A"
+                                                                        style="height: 1em; width: 1em; transform: translateY(0.15em);"><img
+                                                                        src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224px%22%20height%3D%2224px%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22%23000000%22%3E%0A%20%20%20%20%3Cpath%20d%3D%22M19%205v14H5V5h14m0-2H5c-1.1%200-2%20.9-2%202v14c0%201.1.9%202%202%202h14c1.1%200%202-.9%202-2V5c0-1.1-.9-2-2-2z%22%2F%3E%0A%20%20%20%20%3Cpath%20d%3D%22M0%200h24v24H0z%22%20fill%3D%22none%22%2F%3E%0A%3C%2Fsvg%3E%0A"
+                                                                        style="height: 1em; width: 1em; transform: translateY(0.15em); display: none;"></span><label
+                                                                    style="vertical-align: middle; cursor: pointer;">Nhãn</label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section><!-- #contact -->
+
+
+                <!-- END: PAGE CONTENT -->
+
+            </div><!-- .container -->
+        </div><!-- .content -->
+
+        <footer class="footer">
+            <div class="footer-social">
+                <ul class="social">
+                    <li><a class="ripple-centered" href="" target="_blank"><i class="rsicon rsicon-facebook"></i></a>
+                    </li>
+                    <li><a class="ripple-centered" href="" target="_blank"><i class="rsicon rsicon-twitter"></i></a>
+                    </li>
+                    <li><a class="ripple-centered" href="" target="_blank"><i class="rsicon rsicon-linkedin"></i></a>
+                    </li>
+                    <li><a class="ripple-centered" href="" target="_blank"><i class="rsicon rsicon-google-plus"></i></a>
+                    </li>
+                    <li><a class="ripple-centered" href="" target="_blank"><i class="rsicon rsicon-dribbble"></i></a>
+                    </li>
+                    <li><a class="ripple-centered" href="" target="_blank"><i class="rsicon rsicon-instagram"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </footer><!-- .footer -->
+    </div><!-- .wrapper -->
+
+    <a class="btn-scroll-top" href="#"><i class="rsicon rsicon-arrow-up"></i></a>
+    <div id="overlay"></div>
+
+    <div id="op-panel" style="left: -252px; top: 100px; width: 250px; height: auto;">
+        <div id="op-panel-btn"><i class="rsicon rsicon-settings"></i></div>
+        <div class="op-content">
+            <div class="op-section">
+                <div class="op-theme-skin op-btn-group"><button class="op-btn active"
+                        data-value="light">Light</button><button class="op-btn" data-value="dark">Dark</button>
+                    <div class="op-btn-bar"><span class="op-btn-bar-line"></span></div>
+                </div>
+            </div>
+            <div class="op-section">
+                <div class="op-theme-colors"><button class="ripple-centered" data-color="e83b35"><i
+                            class="rsicon rsicon-check"></i></button><button class="ripple-centered"
+                        data-color="e8676b"><i class="rsicon rsicon-check"></i></button><button class="ripple-centered"
+                        data-color="ec407a"><i class="rsicon rsicon-check"></i></button><button class="ripple-centered"
+                        data-color="8e45ae"><i class="rsicon rsicon-check"></i></button><button class="ripple-centered"
+                        data-color="673bb7"><i class="rsicon rsicon-check"></i></button><button class="ripple-centered"
+                        data-color="3f51b5"><i class="rsicon rsicon-check"></i></button><button class="ripple-centered"
+                        data-color="5d6cc1"><i class="rsicon rsicon-check"></i></button><button class="ripple-centered"
+                        data-color="1a77d4"><i class="rsicon rsicon-check"></i></button><button class="ripple-centered"
+                        data-color="07aaf5"><i class="rsicon rsicon-check"></i></button><button class="ripple-centered"
+                        data-color="56c8d2"><i class="rsicon rsicon-check"></i></button><button class="ripple-centered"
+                        data-color="27a79a"><i class="rsicon rsicon-check"></i></button><button class="ripple-centered"
+                        data-color="07cb79"><i class="rsicon rsicon-check"></i></button><button class="ripple-centered"
+                        data-color="8dc24c"><i class="rsicon rsicon-check"></i></button><button class="ripple-centered"
+                        data-color="ffde03"><i class="rsicon rsicon-check"></i></button><button class="ripple-centered"
+                        data-color="fec107"><i class="rsicon rsicon-check"></i></button><button class="ripple-centered"
+                        data-color="ff9801"><i class="rsicon rsicon-check"></i></button><br><br>
+                    <hr><br><button class="ripple-centered" data-color="d1a3a6"><i
+                            class="rsicon rsicon-check"></i></button><button class="ripple-centered"
+                        data-color="ffcfd3"><i class="rsicon rsicon-check"></i></button><button class="ripple-centered"
+                        data-color="fbbdd4"><i class="rsicon rsicon-check"></i></button><button class="ripple-centered"
+                        data-color="e2bfe7"><i class="rsicon rsicon-check"></i></button><button class="ripple-centered"
+                        data-color="c7ccea"><i class="rsicon rsicon-check"></i></button><button class="ripple-centered"
+                        data-color="83d5fb"><i class="rsicon rsicon-check"></i></button><button class="ripple-centered"
+                        data-color="b4e1dc"><i class="rsicon rsicon-check"></i></button><button class="ripple-centered"
+                        data-color="a7d9a8"><i class="rsicon rsicon-check"></i></button></div>
+            </div>
+            <div class="op-section">
+                <div class="op-theme-headimg"><button class="op-btn-check active"><span class="op-check"><i
+                                class="rsicon rsicon-check"></i></span> Show Header Background Image</button></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

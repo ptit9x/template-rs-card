@@ -1,0 +1,464 @@
+<html lang="en" class="theme-color-07cb79 theme-skin-light">
+
+<head>
+    <style>
+        .gm-style .gm-style-mtc label,
+        .gm-style .gm-style-mtc div {
+            font-weight: 400
+        }
+        .gm-control-active>img {
+            box-sizing: content-box;
+            display: none;
+            left: 50%;
+            pointer-events: none;
+            position: absolute;
+            top: 50%;
+            transform: translate(-50%, -50%)
+        }
+
+        .gm-control-active>img:nth-child(1) {
+            display: block
+        }
+
+        .gm-control-active:hover>img:nth-child(1),
+        .gm-control-active:active>img:nth-child(1) {
+            display: none
+        }
+
+        .gm-control-active:hover>img:nth-child(2),
+        .gm-control-active:active>img:nth-child(3) {
+            display: block
+        }
+        .gm-ui-hover-effect {
+            opacity: .6
+        }
+
+        .gm-ui-hover-effect:hover {
+            opacity: 1
+        }
+        .gm-style .gm-style-cc span,
+        .gm-style .gm-style-cc a,
+        .gm-style .gm-style-mtc div {
+            font-size: 10px;
+            box-sizing: border-box
+        }
+        @media print {
+
+            .gm-style .gmnoprint,
+            .gmnoprint {
+                display: none
+            }
+        }
+
+        @media screen {
+
+            .gm-style .gmnoscreen,
+            .gmnoscreen {
+                display: none
+            }
+        }
+        .gm-style-pbc {
+            transition: opacity ease-in-out;
+            background-color: rgba(0, 0, 0, 0.45);
+            text-align: center
+        }
+
+        .gm-style-pbt {
+            font-size: 22px;
+            color: white;
+            font-family: Roboto, Arial, sans-serif;
+            position: relative;
+            margin: 0;
+            top: 50%;
+            -webkit-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+            transform: translateY(-50%)
+        }
+        .gm-style img {
+            max-width: none;
+        }
+
+        .gm-style {
+            font: 400 11px Roboto, Arial, sans-serif;
+            text-decoration: none;
+        }
+    </style>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>RScard</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/ico" href="img/favicon.png">
+
+    <!-- Google Fonts -->
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Fredoka+One">
+    <link rel="stylesheet" type="text/css"
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic">
+
+    <!-- Icon Fonts -->
+    <link rel="stylesheet" type="text/css" href="fonts/map-icons/css/map-icons.min.css">
+    <link rel="stylesheet" type="text/css" href="fonts/icomoon/style.css">
+
+    <!-- Styles -->
+    <link rel="stylesheet" type="text/css" href="js/plugins/jquery.bxslider/jquery.bxslider.css">
+    <link rel="stylesheet" type="text/css" href="js/plugins/jquery.customscroll/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" type="text/css" href="js/plugins/jquery.mediaelement/mediaelementplayer.min.css">
+    <link rel="stylesheet" type="text/css" href="js/plugins/jquery.fancybox/jquery.fancybox.css">
+    <link rel="stylesheet" type="text/css" href="js/plugins/jquery.owlcarousel/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="js/plugins/jquery.owlcarousel/owl.theme.css">
+    <link rel="stylesheet" type="text/css" href="js/plugins/jquery.optionpanel/option-panel.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="colors/theme-color.css">
+    <!-- Modernizer for detect what features the user’s browser has to offer -->
+    <script type="text/javascript" src="js/libs/modernizr.js"></script>
+    <style type="text/css">
+        .fancybox-margin {
+            margin-right: 15px;
+        }
+    </style>
+</head>
+
+<body class="home header-has-img">
+    <div class="mobile-nav">
+        <button class="btn-mobile mobile-nav-close"><i class="rsicon rsicon-close"></i></button>
+
+        <div class="mobile-nav-inner mCustomScrollbar _mCS_1 mCS_no_scrollbar">
+            <div id="mCSB_1" class="mCustomScrollBox mCS-dark mCSB_vertical mCSB_inside" tabindex="0"
+                style="max-height: 0px;">
+                <div id="mCSB_1_container" class="mCSB_container mCS_y_hidden mCS_no_scrollbar_y"
+                    style="position:relative; top:0; left:0;" dir="ltr">
+                    <nav id="mobile-nav" class="nav">
+                        <ul class="clearfix">
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#skills">Skills</a></li>
+                            <li><a href="#portfolio">Portfolio</a> </li>
+                            <li><a href="#experience">Experience</a></li>
+                            <li><a href="#references">References</a></li>
+                            <li>
+                                <a href="category.html">Blog</a>
+                                <ul>
+                                    <li><a href="single-image.html">Image Post</a></li>
+                                    <li><a href="single-slider.html">Slider Post</a></li>
+                                    <li><a href="single-video.html">Video Post</a></li>
+                                    <li><a href="single-audio.html">Audio Post</a></li>
+                                    <li><a href="single-vimeo.html">Vimeo Post</a></li>
+                                    <li><a href="single-youtube.html">Youtube Post</a></li>
+                                    <li><a href="single-dailymotion.html">Dailymotion Post</a></li>
+                                    <li><a href="single.html">Without Media Post</a></li>
+                                    <li><a href="typography.html">Typography Page</a></li>
+                                    <li><a href="icons.html">Icons Page</a></li>
+                                    <li><a href="404.html">404 Page</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#calendar">Calendar <span></span></a></li>
+                            <li><a href="#contact">Contact <span></span></a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div id="mCSB_1_scrollbar_vertical"
+                    class="mCSB_scrollTools mCSB_1_scrollbar mCS-dark mCSB_scrollTools_vertical" style="display: none;">
+                    <div class="mCSB_draggerContainer">
+                        <div id="mCSB_1_dragger_vertical" class="mCSB_dragger"
+                            style="position: absolute; min-height: 30px; top: 0px;" oncontextmenu="return false;">
+                            <div class="mCSB_dragger_bar" style="line-height: 30px;"></div>
+                        </div>
+                        <div class="mCSB_draggerRail"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!-- .mobile-nav -->
+
+    <div class="sidebar sidebar-fixed">
+        <button class="btn-sidebar btn-sidebar-close"> <i class="rsicon rsicon-close"></i></button>
+
+        <div class="widget-area mCustomScrollbar _mCS_2">
+            <div id="mCSB_2" class="mCustomScrollBox mCS-dark mCSB_vertical mCSB_inside" tabindex="0">
+                <div id="mCSB_2_container" class="mCSB_container" style="position:relative; top:0; left:0;" dir="ltr">
+                    <aside class="widget widget-profile">
+                        <div class="profile-photo">
+                            <img src="img/uploads/rs-photo-v2.jpg" alt="Do Ngoc Huynh" class="mCS_img_loaded">
+                        </div>
+                        <div class="profile-info">
+                            <h2 class="profile-title">Do Ngoc Huynh</h2>
+                            <h3 class="profile-position">Developer and Startup entrepreneur</h3>
+                        </div>
+                    </aside><!-- .widget-profile -->
+
+                    <aside class="widget widget_search">
+                        <h2 class="widget-title">Search</h2>
+                        <form class="search-form">
+                            <label class="ripple">
+                                <span class="screen-reader-text">Search for:</span>
+                                <input class="search-field" type="search" placeholder="Search">
+                            </label>
+                            <input type="submit" class="search-submit" value="Search">
+                        </form>
+                    </aside><!-- .widget_search -->
+
+                    <aside class="widget widget_contact">
+                        <h2 class="widget-title">Contact Me</h2>
+                        <form class="contactForm" action="php/contact_form.php" method="post">
+                            <div class="input-field">
+                                <input class="contact-name" type="text" name="name">
+                                <span class="line"></span>
+                                <label>Name</label>
+                            </div>
+
+                            <div class="input-field">
+                                <input class="contact-email" type="email" name="email">
+                                <span class="line"></span>
+                                <label>Email</label>
+                            </div>
+
+                            <div class="input-field">
+                                <input class="contact-subject" type="text" name="subject">
+                                <span class="line"></span>
+                                <label>Subject</label>
+                            </div>
+
+                            <div class="input-field">
+                                <textarea class="contact-message" rows="4" name="message"></textarea>
+                                <span class="line"></span>
+                                <label>Message</label>
+                            </div>
+
+                            <span class="btn-outer btn-primary-outer ripple">
+                                <input class="contact-submit btn btn-lg btn-primary" type="submit" value="Send">
+                            </span>
+
+                            <div class="contact-response"></div>
+                        </form>
+                    </aside><!-- .widget_contact -->
+
+                    <aside class="widget widget-popuplar-posts">
+                        <h2 class="widget-title">Popular posts</h2>
+                        <ul>
+                            <li>
+                                <div class="post-media"><a href=""><img src="img/uploads/thumb-78x56-1.jpg" alt=""
+                                            class="mCS_img_loaded"></a></div>
+                                <h3 class="post-title"><a href="">Standard Post Format With Featured Image</a></h3>
+                                <div class="post-info"><a href=""><i class="rsicon rsicon-comments"></i>56 comments</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="post-media"><a href=""><img src="img/uploads/thumb-78x56-2.jpg" alt=""
+                                            class="mCS_img_loaded"></a></div>
+                                <h3 class="post-title"><a href="">Standard Post Format With Featured Image</a></h3>
+                                <div class="post-info"><a href=""><i class="rsicon rsicon-comments"></i>56 comments</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="post-media"><a href=""><img src="img/uploads/thumb-78x56-3.jpg" alt=""
+                                            class="mCS_img_loaded"></a></div>
+                                <h3 class="post-title"><a href="">Standard Post Format With Featured Image</a></h3>
+                                <div class="post-info"><a href=""><i class="rsicon rsicon-comments"></i>56 comments</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </aside><!-- .widget-popuplar-posts -->
+
+                    <aside class="widget widget_tag_cloud">
+                        <h2 class="widget-title">Tag Cloud</h2>
+                        <div class="tagcloud">
+                            <a href="" title="1 topic">Business</a>
+                            <a href="" title="9 topics">City</a>
+                            <a href="" title="10 topics">Creative</a>
+                            <a href="" title="6 topics">Fashion</a>
+                            <a href="" title="2 topics">Music</a>
+                            <a href="" title="5 topics">News</a>
+                            <a href="" title="9 topics">Peoples</a>
+                        </div>
+                    </aside><!-- .widget_tag_cloud -->
+
+                    <aside class="widget widget-recent-posts">
+                        <h2 class="widget-title">Recent posts</h2>
+                        <ul>
+                            <li>
+                                <div class="post-tag">
+                                    <a href="">#Photo</a>
+                                    <a href="">#Architect</a>
+                                </div>
+                                <h3 class="post-title"><a href="">Standard Post Format With Featured Image</a></h3>
+                                <div class="post-info"><a href=""><i class="rsicon rsicon-comments"></i>56 comments</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="post-tag">
+                                    <a href="">#Photo</a>
+                                    <a href="">#Architect</a>
+                                </div>
+                                <h3 class="post-title"><a href="">Standard Post Format With Featured Image</a></h3>
+                                <div class="post-info"><a href=""><i class="rsicon rsicon-comments"></i>56 comments</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="post-tag">
+                                    <a href="">#Photo</a>
+                                    <a href="">#Architect</a>
+                                </div>
+                                <h3 class="post-title"><a href="">Standard Post Format With Featured Image</a></h3>
+                                <div class="post-info"><a href=""><i class="rsicon rsicon-comments"></i>56 comments</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </aside><!-- .widget-recent-posts -->
+
+                    <aside class="widget widget_categories">
+                        <h2 class="widget-title">Categories</h2>
+                        <ul>
+                            <li><a href="" title="Architecture Category Posts">Architecture</a> (9)</li>
+                            <li><a href="" title="Business Category Posts">Business</a> (16)</li>
+                            <li><a href="" title="Creative Category Posts">Creative</a> (18)</li>
+                            <li><a href="" title="Design Category Posts">Design</a> (10)</li>
+                            <li><a href="" title="Development Category Posts">Development</a> (14)</li>
+                            <li><a href="" title="Education Category Posts">Education</a> (9)</li>
+                        </ul>
+                    </aside><!-- .widget_categories -->
+                </div>
+                <div id="mCSB_2_scrollbar_vertical"
+                    class="mCSB_scrollTools mCSB_2_scrollbar mCS-dark mCSB_scrollTools_vertical"
+                    style="display: block;">
+                    <div class="mCSB_draggerContainer">
+                        <div id="mCSB_2_dragger_vertical" class="mCSB_dragger"
+                            style="position: absolute; min-height: 30px; display: block; height: 347px; max-height: 889px;"
+                            oncontextmenu="return false;">
+                            <div class="mCSB_dragger_bar" style="line-height: 30px;"></div>
+                        </div>
+                        <div class="mCSB_draggerRail"></div>
+                    </div>
+                </div>
+            </div>
+        </div><!-- .widget-area -->
+    </div><!-- .sidebar -->
+
+    <div class="wrapper">
+        <header class="header" style="min-height: 127px;">
+			<div class="head-bg" style="background-image: url('img/uploads/rs-cover.jpg')"></div>
+			
+            <div class="head-bar animated">
+                <div class="head-bar-inner">
+                    <div class="row">
+                        <div class="col-sm-3 col-xs-6">                            
+                            <a class="logo" href="index.html"><span>RS</span>card</a>
+							<!-- <a class="head-logo" href=""><img src="img/rs-logo.png" alt="RScard"/></a> -->
+                        </div>
+
+                        <div class="col-sm-9 col-xs-6">
+                            <div class="nav-wrap">
+                                <nav id="nav" class="nav">
+									<ul class="clearfix">
+										<li><a href="index.html#about">About<span></span></a></li>
+										<li><a href="index.html#skills">Skills<span></span></a></li>
+										<li><a href="index.html#portfolio">Portfolio<span></span></a> </li>
+										<li><a href="index.html#experience">Experience<span></span></a></li>
+										<li><a href="index.html#references">References<span></span></a></li>
+										<li>
+											<a href="category.html">Blog<span></span></a>
+											<ul>
+												<li><a href="single-image.html">Image Post</a></li>
+												<li><a href="single-slider.html">Slider Post</a></li>
+												<li><a href="single-video.html">Video Post</a></li>
+												<li><a href="single-audio.html">Audio Post</a></li>
+												<li><a href="single-vimeo.html">Vimeo Post</a></li>
+												<li><a href="single-youtube.html">Youtube Post</a></li>
+												<li><a href="single-dailymotion.html">Dailymotion Post</a></li>
+												<li><a href="single.html">Without Media Post</a></li>
+												<li><a href="typography.html">Typography Page</a></li>
+												<li><a href="icons.html">Icons Page</a></li>
+												<li><a href="404.html">404 Page</a></li>
+											</ul>
+										</li>
+										<li><a href="index.html#calendar">Calendar <span></span><span></span></a></li>
+										<li><a href="index.html#contact">Contact <span></span><span></span></a></li>
+									</ul>
+								</nav>
+
+                                <button class="btn-mobile btn-mobile-nav">Menu</button>
+                                <button class="btn-sidebar btn-sidebar-open"><i class="rsicon rsicon-menu"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header><!-- .header -->
+
+        <div class="content">
+            <div class="container">
+			
+			<!-- START: PAGE CONTENT -->
+			<div class="page-404">
+				<h2>4<span>0</span>4</h2>
+				<p>Ooops! This page doesn't even exist</p>
+				<a class="btn btn-lg btn-border" href="index.html">Go To The Homepage ?</a>
+			</div>
+			<!-- END: PAGE CONTENT -->
+                
+            </div><!-- .container -->
+        </div><!-- .content -->
+
+        <footer class="footer">
+            <div class="footer-social">
+                <ul class="social">
+					<li><a class="ripple-centered" href="" target="_blank"><i class="rsicon rsicon-facebook"></i></a></li>
+					<li><a class="ripple-centered" href="" target="_blank"><i class="rsicon rsicon-twitter"></i></a></li>
+					<li><a class="ripple-centered" href="" target="_blank"><i class="rsicon rsicon-linkedin"></i></a></li>
+					<li><a class="ripple-centered" href="" target="_blank"><i class="rsicon rsicon-google-plus"></i></a></li>
+					<li><a class="ripple-centered" href="" target="_blank"><i class="rsicon rsicon-dribbble"></i></a></li>
+					<li><a class="ripple-centered" href="" target="_blank"><i class="rsicon rsicon-instagram"></i></a></li>
+				</ul>
+            </div>
+        </footer><!-- .footer -->
+    </div>
+
+    <a class="btn-scroll-top" href="#"><i class="rsicon rsicon-arrow-up"></i></a>
+    <div id="overlay"></div>
+
+    <div id="op-panel" style="left: -252px; top: 100px; width: 250px; height: auto;">
+        <div id="op-panel-btn"><i class="rsicon rsicon-settings"></i></div>
+        <div class="op-content">
+            <div class="op-section">
+                <div class="op-theme-skin op-btn-group"><button class="op-btn active"
+                        data-value="light">Light</button><button class="op-btn" data-value="dark">Dark</button>
+                    <div class="op-btn-bar"><span class="op-btn-bar-line"></span></div>
+                </div>
+            </div>
+            <div class="op-section">
+                <div class="op-theme-colors"><button class="ripple-centered" data-color="e83b35"><i
+                            class="rsicon rsicon-check"></i></button><button class="ripple-centered"
+                        data-color="e8676b"><i class="rsicon rsicon-check"></i></button><button class="ripple-centered"
+                        data-color="ec407a"><i class="rsicon rsicon-check"></i></button><button class="ripple-centered"
+                        data-color="8e45ae"><i class="rsicon rsicon-check"></i></button><button class="ripple-centered"
+                        data-color="673bb7"><i class="rsicon rsicon-check"></i></button><button class="ripple-centered"
+                        data-color="3f51b5"><i class="rsicon rsicon-check"></i></button><button class="ripple-centered"
+                        data-color="5d6cc1"><i class="rsicon rsicon-check"></i></button><button class="ripple-centered"
+                        data-color="1a77d4"><i class="rsicon rsicon-check"></i></button><button class="ripple-centered"
+                        data-color="07aaf5"><i class="rsicon rsicon-check"></i></button><button class="ripple-centered"
+                        data-color="56c8d2"><i class="rsicon rsicon-check"></i></button><button class="ripple-centered"
+                        data-color="27a79a"><i class="rsicon rsicon-check"></i></button><button class="ripple-centered"
+                        data-color="07cb79"><i class="rsicon rsicon-check"></i></button><button class="ripple-centered"
+                        data-color="8dc24c"><i class="rsicon rsicon-check"></i></button><button class="ripple-centered"
+                        data-color="ffde03"><i class="rsicon rsicon-check"></i></button><button class="ripple-centered"
+                        data-color="fec107"><i class="rsicon rsicon-check"></i></button><button class="ripple-centered"
+                        data-color="ff9801"><i class="rsicon rsicon-check"></i></button><br><br>
+                    <hr><br><button class="ripple-centered" data-color="d1a3a6"><i
+                            class="rsicon rsicon-check"></i></button><button class="ripple-centered"
+                        data-color="ffcfd3"><i class="rsicon rsicon-check"></i></button><button class="ripple-centered"
+                        data-color="fbbdd4"><i class="rsicon rsicon-check"></i></button><button class="ripple-centered"
+                        data-color="e2bfe7"><i class="rsicon rsicon-check"></i></button><button class="ripple-centered"
+                        data-color="c7ccea"><i class="rsicon rsicon-check"></i></button><button class="ripple-centered"
+                        data-color="83d5fb"><i class="rsicon rsicon-check"></i></button><button class="ripple-centered"
+                        data-color="b4e1dc"><i class="rsicon rsicon-check"></i></button><button class="ripple-centered"
+                        data-color="a7d9a8"><i class="rsicon rsicon-check"></i></button></div>
+            </div>
+            <div class="op-section">
+                <div class="op-theme-headimg"><button class="op-btn-check active"><span class="op-check"><i
+                                class="rsicon rsicon-check"></i></span> Show Header Background Image</button></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
